@@ -9,6 +9,7 @@ Memo Aldujaili - Student Number 300197659
 Philip Ostroscki - Student Number 300171127
 Sergio Villaseñor - Student Number 300160599
 Khalil Aouadi - Student Number 300197227
+Valerie Chen - Student Number 300172584
 
 
 Product Name: Freshelf
