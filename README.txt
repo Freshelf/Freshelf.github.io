@@ -15,3 +15,4 @@ Valerie Chen - Student Number 300172584
 Product Name: Freshelf
 
 Description:
+Freshelf is an application that efficiently tracks the expiration dates of food items in the user’s kitchen. By providing an easy approach for shoppers to manage groceries, our app will reduce the prevalence of household food waste. 
