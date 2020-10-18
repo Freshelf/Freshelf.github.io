@@ -3,15 +3,25 @@
     <head>
         <title>Freshelf - Keep Your Food Fresh</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, inital-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, height=device-height, inital-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="styles.css">
     </head>
     <header>
+        <div id="header_background"></div>
+        <div id="header_text">
+            <h1>FRESHELF</h1>
+            <div style="height: 5vh;"></div>
+            <p>Waste less food, waste less money.</p>
+        </div>
+        <div id="header_buttons">
+            <a href="#features" style="text-decoration: none;">Features</a>
+            <a href="#prices" style="text-decoration: none;">Prices</a>
+            <a href="#team" style="text-decoration: none;">Team</a>
+            <a href="#contact" style="text-decoration: none;">Contact</a>
+        </div>
     </header>
-    <div style="height:110px;"></div>
-    <h1 id="header_text">Freshelf</h1>
-    <div style="height:240px;"></div>
     <body>
+
         <p>
             Home:
         </p>
@@ -59,39 +69,10 @@
         <!--For blank space at bottom of page-->
         <div style="margin-top:500px"></div>
 
+        <section id="features" style="height: 50vh;">Product Features</section>
+        <section id="prices" style="height: 50vh;">Prices</section>
+        <section id="team" style="height: 50vh;">Team</section>
+        <section id="contact" style="height: 50vh;">Contact</section>
+
     </body>
-    <script>
-        var logoStuck = false;
-        var carouselOut = false;
-        window.onscroll = whenScrolling;
-
-        function titleOnViewport(element) { // checks if element is above the visible screen
-            const rect = element.getBoundingClientRect();
-            const windowRect = document.body.getBoundingClientRect();
-            return (
-                rect.top > windowRect.top + 111
-            )
-        }
-
-        function whenScrolling() {
-            var titleThing = document.getElementById("header_text");
-            if (!logoStuck && titleOnViewport(titleThing)) {
-                logoStuck = true;
-                titleThing.style.fontSize = "40px";
-                titleThing.style.padding = "12.5px 17.5px 17.5px 17.5px";
-                titleThing.style.width = "150px";
-                titleThing.style.textShadow = "-1px -2px rgb(163, 255, 76, 20), 1px 2.5px 2px rgba(0, 0, 0, 20)";
-                titleThing.style.borderRadius = "7.5px";
-            }
-            else if (logoStuck && !titleOnViewport(titleThing)) {
-                logoStuck = false;
-                titleThing.style.fontSize = "80px";
-                titleThing.style.padding = "25px 35px 35px 35px";
-                titleThing.style.width = "300px";
-                titleThing.style.textShadow = "-2px -4px rgb(163, 255, 76, 20), 2px 5px 4px rgba(0, 0, 0, 20)";
-                titleThing.style.borderRadius = "15px";
-            }
-            
-        }
-    </script>
 </html>

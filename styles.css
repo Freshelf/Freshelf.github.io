@@ -1,28 +1,77 @@
-#header_text {
-    margin: auto;
-    z-index: 100;
-    text-align: center;
-    color: rgb(86, 167, 11);
-    text-shadow: -2px -4px rgb(163, 255, 76, 20), 2px 5px 4px rgba(0, 0, 0, 20);
-    font-family: "Impact";
-    font-size: 80px;
-    background: linear-gradient(to bottom right, #66ff33 45%, #cccc00 55%);
-    width: 300px;
-    padding: 25px 35px 35px 35px;
-    top: 0;
-    border-radius: 15px;
-    position: sticky;
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
     }
 
-    header {
-        margin: 0;
-        padding: 100px;
-        background-image: url("Images/header_background.jpg");
-        height: 300px;
-        width: 100vw;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: absolute;
+@font-face {
+    font-family: "Stepped";
+    src: url(srcs/SteppedDemoRegular.ttf) format("truetype");
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+}
+
+#header_text {
+    padding: 0 0 3vh 0;
+    left: 50vw;
+    top: 40vh;
+    transform: translate(-50%, -50%);
+    color: rgb(197, 197, 197);
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 45vw;
+    height: 34vh;
+    position: relative;
+    border-radius: 1vw;
+    box-shadow: 0 0 2vw 2vw rgba(0, 0, 0, 0.6);
     }
+
+#header_text h1 {
+    font-family: "Stepped";
+    font-size: 5vw;
+    text-align: center;
+}
+
+#header_text p {
+    font-family: 'Forte';
+    font-size: 2vw;
+    text-align: center;
+}
+
+#header_background {
+    height: 100%;
+    width: 100%;
+    background-image: url("srcs/header_background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+#header_buttons {
+    position: relative;
+    left: 49.375vw;
+    top: 45vh;
+    width: 45vw;
+    height: 4vw;
+    transform: translate(-50%, -50%);
+}
+
+#header_buttons a {
+    float: left;
+    position: relative;
+    font-size: 2vw;
+    background-image: url("srcs/button_background.jpg");
+    height: 2.7vw;
+    padding-top: 0.3vw;
+    width: 10vw;
+    border-radius: 1.5vw;
+    margin-left: 1.25vw;
+    filter: brightness(200%);
+    color: rgb(197, 197, 197);
+    box-shadow: 0 0.5vw 0 0 rgb(54, 38, 13);
+    text-align: center;
+}
