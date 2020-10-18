@@ -1,28 +1,45 @@
-#header_text {
-    margin: auto;
-    z-index: 100;
-    text-align: center;
-    color: rgb(86, 167, 11);
-    text-shadow: -2px -4px rgb(163, 255, 76, 20), 2px 5px 4px rgba(0, 0, 0, 20);
-    font-family: "Impact";
-    font-size: 80px;
-    background: linear-gradient(to bottom right, #66ff33 45%, #cccc00 55%);
-    width: 300px;
-    padding: 25px 35px 35px 35px;
-    top: 0;
-    border-radius: 15px;
-    position: sticky;
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
     }
 
-    header {
-        margin: 0;
-        padding: 100px;
-        background-image: url("Images/header_background.jpg");
-        height: 300px;
-        width: 100vw;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: absolute;
+#header_text {
+    left: 50vw;
+    top: 30vh;
+    transform: translate(-50%, -50%);
+    color: rgb(197, 197, 197);
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 45vw;
+    height: 30vh;
+    position: relative;
+    border-radius: 1vw;
+    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.6);
     }
+
+#header_text h1 {
+    font-size: 15vh;
+    text-align: center;
+    font-family: "Impact";
+}
+
+#header_text p {
+    font-size: 4vh;
+    text-align: center;
+}
+
+#header_background {
+    height: 100%;
+    width: 100%;
+    background-image: url("Images/header_background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+}
