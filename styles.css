@@ -4,26 +4,33 @@
     overflow-x: hidden; 
     }
 
+@font-face {
+    font-family: "Stepped";
+    src: url(srcs/SteppedDemoRegular.ttf) format("truetype");
+}
+
 #header_text {
+    padding: 0 0 3vh 0;
     left: 50vw;
-    top: 30vh;
+    top: 40vh;
     transform: translate(-50%, -50%);
     color: rgb(197, 197, 197);
     background-color: rgba(0, 0, 0, 0.6);
     width: 45vw;
-    height: 30vh;
+    height: 32vh;
     position: relative;
     border-radius: 1vw;
-    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 2vw 2vw rgba(0, 0, 0, 0.6);
     }
 
 #header_text h1 {
-    font-size: 15vh;
+    font-family: "Stepped";
+    font-size: 10vh;
     text-align: center;
-    font-family: "Impact";
 }
 
 #header_text p {
+    font-family: 'Forte';
     font-size: 4vh;
     text-align: center;
 }
@@ -31,7 +38,7 @@
 #header_background {
     height: 100%;
     width: 100%;
-    background-image: url("Images/header_background.jpg");
+    background-image: url("srcs/header_background.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
