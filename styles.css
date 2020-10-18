@@ -9,6 +9,11 @@
     src: url(srcs/SteppedDemoRegular.ttf) format("truetype");
 }
 
+header {
+    height: 100vh;
+    width: 100vw;
+}
+
 #header_text {
     padding: 0 0 3vh 0;
     left: 50vw;
@@ -17,7 +22,7 @@
     color: rgb(197, 197, 197);
     background-color: rgba(0, 0, 0, 0.6);
     width: 45vw;
-    height: 32vh;
+    height: 34vh;
     position: relative;
     border-radius: 1vw;
     box-shadow: 0 0 2vw 2vw rgba(0, 0, 0, 0.6);
@@ -25,13 +30,13 @@
 
 #header_text h1 {
     font-family: "Stepped";
-    font-size: 10vh;
+    font-size: 5vw;
     text-align: center;
 }
 
 #header_text p {
     font-family: 'Forte';
-    font-size: 4vh;
+    font-size: 2vw;
     text-align: center;
 }
 
@@ -46,7 +51,27 @@
     position: absolute;
 }
 
-header {
-    height: 100vh;
-    width: 100vw;
+#header_buttons {
+    position: relative;
+    left: 49.375vw;
+    top: 45vh;
+    width: 45vw;
+    height: 4vw;
+    transform: translate(-50%, -50%);
+}
+
+#header_buttons a {
+    float: left;
+    position: relative;
+    font-size: 2vw;
+    background-image: url("srcs/button_background.jpg");
+    height: 2.7vw;
+    padding-top: 0.3vw;
+    width: 10vw;
+    border-radius: 1.5vw;
+    margin-left: 1.25vw;
+    filter: brightness(200%);
+    color: rgb(197, 197, 197);
+    box-shadow: 0 0.5vw 0 0 rgb(54, 38, 13);
+    text-align: center;
 }
