@@ -40,6 +40,7 @@ header {
     font-family: 'Forte';
     font-size: 2vw;
     text-align: center;
+    margin-bottom: 200x;
 }
 
 #header_background {
@@ -84,6 +85,7 @@ header {
 }
 .features_text {
     padding-left: 20px;
+    margin-right: 600px;
 }
 ::-webkit-scrollbar {
     width: 10px;
