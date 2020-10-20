@@ -21,18 +21,16 @@ header {
     left: 50vw;
     top: 40vh;
     transform: translate(-50%, -50%);
-    color: rgb(197, 197, 197);
-    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
     width: 45vw;
     height: 34vh;
     position: relative;
     border-radius: 1vw;
-    box-shadow: 0 0 2vw 2vw rgba(0, 0, 0, 0.6);
     }
 
 #header_text h1 {
     font-family: "Stepped";
-    font-size: 5vw;
+    font-size: 8vw;
     text-align: center;
 }
 
@@ -45,7 +43,7 @@ header {
 #header_background {
     height: 100%;
     width: 100%;
-    background-image: url("srcs/header_background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("srcs/ChoppingBoard.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
