@@ -8,6 +8,7 @@
     font-family: "Stepped";
     src: url(srcs/SteppedDemoRegular.ttf) format("truetype");
 }
+
 .Main_content {
     margin-right: 50px;
 }
@@ -19,33 +20,31 @@ header {
 #header_text {
     padding: 0 0 3vh 0;
     left: 50vw;
-    top: 40vh;
+    top: 50vh;
     transform: translate(-50%, -50%);
-    color: rgb(197, 197, 197);
-    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
     width: 45vw;
     height: 34vh;
     position: relative;
     border-radius: 1vw;
-    box-shadow: 0 0 2vw 2vw rgba(0, 0, 0, 0.6);
     }
 
 #header_text h1 {
-    font-family: "Stepped";
-    font-size: 5vw;
+    font-family: 'Lato', sans-serif;
+    font-size: 9.8vw;
     text-align: center;
 }
 
 #header_text p {
     font-family: 'Forte';
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: center;
 }
 
 #header_background {
     height: 100%;
     width: 100%;
-    background-image: url("srcs/header_background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("srcs/ChoppingBoard.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,7 +55,7 @@ header {
 #header_buttons {
     position: relative;
     left: 49.375vw;
-    top: 45vh;
+    top: 40vh;
     width: 45vw;
     height: 4vw;
     transform: translate(-50%, -50%);
@@ -68,15 +67,14 @@ header {
     float: left;
     position: relative;
     font-size: 2vw;
-    background-image: url("srcs/button_background.jpg");
     height: 2.7vw;
     padding-top: 0.3vw;
     width: 10vw;
     border-radius: 1.5vw;
     margin-left: 1.25vw;
     filter: brightness(200%);
-    color: rgb(197, 197, 197);
-    box-shadow: 0 0.5vw 0 0 rgb(54, 38, 13);
+    color: white;
+    box-shadow: white;
     text-align: center;
 }
 #header_buttons hover {
