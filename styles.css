@@ -19,7 +19,6 @@
 header {
     height: 100vh;
     width: 100vw;
-    box-shadow: 4px 8px 8px black;
 }
 
 #header_text {
@@ -30,8 +29,9 @@ header {
     color: white;
     width: 45vw;
     height: 34vh;
-    position: relative
-    }
+    position: relative;
+    height: auto;
+}
 
 #header_text h1 {
     font-family:'Fira Sans Condensed', sans-serif;
@@ -133,6 +133,7 @@ header {
     margin-top: 50px;
     font-family:'Fira Sans Condensed', sans-serif;
     font-size: 18.99px;
+    height: auto;
 }
 #inter{
     box-shadow: 10px 10px 30px black;
