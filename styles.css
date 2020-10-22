@@ -84,13 +84,15 @@ header {
     text-align: center;
     font-family: 'Gupter', serif;
     font-size: 1.8vw;
-    background-image: url("srcs/button.jpg");
-    background-size: cover;
 }
 #header_buttons a:hover {
     filter: brightness(230%);
-    color: #8A6642;
+    color: #44312d;
     background-image: none;
+    box-shadow: 10px 10px 5px black;
+    background-image: url("srcs/button.jpg");
+    background-size: cover;
+    transition: 0.5s;
 }
 .features_text {
     padding-left: 20px;
