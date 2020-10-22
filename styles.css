@@ -3,7 +3,7 @@
     padding: 0px;
     overflow-x: hidden; 
     }
-@import url("https://fonts.googleapis.com/css2?family=Gupter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap");
 
 @font-face {
     font-family: "Stepped";
@@ -13,9 +13,13 @@
 .Main_content {
     margin-right: 50px;
 }
+
+/*-----------------------------------header styles---------------------------------------------------------------------------------*/
+
 header {
     height: 100vh;
     width: 100vw;
+    box-shadow: 4px 8px 8px black;
 }
 
 #header_text {
@@ -23,24 +27,26 @@ header {
     left: 50vw;
     top: 50vh;
     transform: translate(-50%, -50%);
-    color: #d1d8e0;
+    color: white;
     width: 45vw;
     height: 34vh;
     position: relative
     }
 
 #header_text h1 {
-    font-family:'Gupter', serif;
-    font-size: 9.5vw;
+    font-family:'Fira Sans Condensed', sans-serif;
+    font-size: 10.5vw;
     text-align: center;
     margin: auto;
+    filter: brightness(1000%)
 }
 
 #header_text p {
-    font-family: 'Gupter', serif;
+    font-family: 'Grandstander', cursive;
     font-size: 1.3vw;
     text-align: center;
-    margin-top: 5px
+    margin-top: 5px;
+    filter: brightness(1000%)
 }
 
 #header_background {
@@ -52,7 +58,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    box-shadow: crimson;
 }
 #header_buttons_background {
     height: 150%;
@@ -72,37 +77,64 @@ header {
 #header_buttons a {
     float: left;
     position: relative;
-    font-size: 2vw;
+    font-size: 1.5vw;
     height: 2.7vw;
-    padding-top: 0.3vw;
+    padding-top: 0.7vw;
     width: 10vw;
     border-radius: 12px;
     margin-left: 1.25vw;
-    filter: brightness(200%);
-    color: #2f3542;
-    box-shadow: rgb(17, 17, 17);
+    filter: brightness(100%);
+    color: white;
     text-align: center;
-    font-family: 'Gupter', serif;
-    font-size: 1.8vw;
+    font-family: 'Grandstander', cursive;
 }
 #header_buttons a:hover {
-    filter: brightness(230%);
+    filter: brightness(95%);
     color: #44312d;
     background-image: none;
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 4px 8px 8px black;
     background-image: url("srcs/button.jpg");
     background-size: cover;
-    transition: 0.5s;
+    transition: 0.3s;
 }
-.features_text {
+#features_text {
     padding-left: 20px;
 }
 ::-webkit-scrollbar {
     width: 10px;
 }
   ::-webkit-scrollbar-thumb {
-    background-color: #BD9CA5;
+    background-color: #f7f1e3;
 }
   ::-webkit-scrollbar-track {
     background-color: #1e1e24;
+}
+/*-------------------------------section features styles---------------------------------------------------------------------------------*/
+
+
+#features_left{
+    background-color: #44312d;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f2ebd9;
+    display: block;
+    border: 10px black;
+    font-size: 25px;
+    box-shadow: 10px 10px 30px black;
+}
+#features_right{
+    background-color: #65c35c;
+    padding: 0px;
+    display: block;
+} 
+
+#features_text{
+    color: white;
+    margin: 25px;
+    margin-top: 50px;
+    font-family:'Fira Sans Condensed', sans-serif;
+    font-size: 18.99px;
+}
+#inter{
+    box-shadow: 10px 10px 30px black;
+
 }
