@@ -80,12 +80,15 @@ header {
     box-shadow: 0 0.5vw 0 0 rgb(54, 38, 13);
     text-align: center;
 }
-#header_buttons hover {
-    filter: brightness(230%);
+#header_buttons:hover {
+    filter: brightness(100%);
 }
 .features_text {
-    padding-left: 20px;
-    margin-right: 600px;
+    padding-left: 250px;
+    margin-right: 20px;
+    height:auto; 
+    margin-left: 250px;
+    margin-top:0px;
 }
 ::-webkit-scrollbar {
     width: 10px;
@@ -95,4 +98,23 @@ header {
 }
   ::-webkit-scrollbar-track {
     background-color: #1e1e24;
+}
+.Product_Features {
+    height: 5vh;
+    margin-left: 50px;
+}
+.img_Features {
+    width: 400px; 
+    height: 500px; 
+    float:left; 
+    margin-left: 50px;
+}
+.price {
+    margin-top: 250px;
+}
+#more {
+    display: none;
+}
+.btn_read_more {
+    
 }

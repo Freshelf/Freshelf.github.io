@@ -28,18 +28,18 @@
         </div>
     </header>
     <body class = "Main_content">
-        <section class= "Product_Features" id="features" style="height: 5vh;margin-left: 50px;"><h1>Product Features</h1></section>
-        <img src="srcs/Pantry.jpg" alt="Kitchen Pantry" width="300" height="auto" style="float:left; margin-left: 50px;">
-        <section class="features_text" id="features_content" style="height:auto; margin-left: 50px;" >
+        <section class= "Product_Features" id="features"><h1>Product Features</h1></section>
+        <img class = "img_Features"src="srcs/Pantry.jpg" alt="Kitchen Pantry">
+        <section class="features_text" id="features_content">
             <p>Gone are the days of rotten avocados and moldy bread filling up the limited space in your pantry. Our smart application keeps track of all your food items and alerts you when the expiry date is fast approaching.<br> With custom suggestions of mouth-watering recipes, you’ll never have to think twice (or sniff twice) before cooking up some of your favourite meals.</p>
             <br>
             <p>Here at Freshelf, our number one priority is to help you stop losing money on wasted food.<br> Our easy-to-use app is filled with efficient tracking algorithms to help you save money and live a fresher life.<br> At the supermarket, just scan your phone at the register and all the food that you purchased will be automatically added to our Freshelf app!<br> Listed are the expiry dates, date of purchase, quantity of item, and many other features tailored to your needs.<br> Let us help you reduce your food waste and plan better. </p>
             <p>Here at Freshelf, our number one priority is to help you stop losing money on wasted food. Our easy-to-use app is filled with efficient tracking algorithms to help you save money and live a fresher life. At the supermarket, just scan your phone at the register and all the food that you purchased will be automatically added to our Freshelf app! Listed are the expiry dates, date of purchase, quantity of item, and many other features tailored to your needs. Let us help you reduce your food waste and plan better. </p>
             <br>
             <p>
-                How the product works?</p>
+                How the product works?<span id = "dots">...</span></p>
             </p>
-            <p>
+            <span id = "more">
                 <ul>
                     <li>At register, scan QR code to link the app to the register directly</li>
                     <li>As foods are scanned, they also appear in your app, removing the need to manually scan them yourself</li>
@@ -47,13 +47,11 @@
                     <li>If the food item is fresh produce, an estimated expiry date is used</li>
                     <li>If you scan something that is not food (ex. you’re also buying a magazine), the app omits it into another category (but you can add the magazine back into the main selection if desired)</li>
                 </ul>
-            </p>
-       
-
-            <div style="margin-top:200px"></div>
+            </span>
+            <button onclick= "Read_More()" class = btn_read_more id="read_M">Read more</button>
         </section>
 
-        <section id="prices" style="height: 5vh;margin-left: 50px;"><h1>Prices</h1></section>
+        <section class = "price" id="prices" style="height: 5vh;margin-left: 50px;"><h1>Prices</h1></section>
 
         <section id="prices_content" style="height: 30vh;margin-left: 50px;">
             <p>
@@ -114,3 +112,23 @@
 
     </body>
 </html>
+<script>
+    function Read_More() {
+        var dots = document.getElementById("dots");
+        var more_txt = document.getElementById("more");
+        var more_btn = document.getElementById("read_M");
+
+        if(dots.style.display ==='none')
+        {
+            dots.style.display = "inline";
+            more_txt.style.display = "none";
+            more_btn.innerHTML = "Read more";
+        }
+        else 
+        {
+            dots.style.display = "none";
+            more_txt.style.display = "inline";
+            more_btn.innerHTML = "Read less";
+        }
+    }
+</script>
