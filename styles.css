@@ -150,11 +150,13 @@ header {
     background-image: linear-gradient(to left, rgb(100, 71, 34) 40%, rgb(7, 87, 0));
     box-shadow: 0 0 2vw 0 black inset;
 }
+#navbar a { text-decoration: none;}
 
-#navbar h4 {
+#nav_title {
     position: relative;
     float: left;
     font-size: 4.5vw;
+    font-weight: bold;
     font-family: 'Fira Sans Condensed';
     color: white;
     text-shadow: 0 0.2vw black;
@@ -163,7 +165,7 @@ header {
     text-align: center;
 }
 
-#navbar h5 {
+.nav_button {
     position: relative;
     float: left;
     font-size: 2vw;
