@@ -68,7 +68,7 @@ header {
     left: 49.375vw;
     top: 40vh;
     width: 45vw;
-    height: 4vw;
+    height: auto;
     transform: translate(-50%, -50%);
     cursor: pointer;
     transition:0.3s ease 0s;
@@ -138,4 +138,40 @@ header {
 #inter{
     box-shadow: 10px 10px 30px black;
 
+}
+
+/*---------------------------Navigation Bar Styles-----------------------------*/
+
+#navbar {
+    position: fixed;
+    height: 5.5vw;
+    width: 100vw;
+    top: 0;
+    background-image: linear-gradient(to left, rgb(100, 71, 34) 40%, rgb(7, 87, 0));
+    box-shadow: 0 0 2vw 0 black inset;
+}
+
+#navbar h4 {
+    position: relative;
+    float: left;
+    font-size: 4.5vw;
+    font-family: 'Fira Sans Condensed';
+    color: white;
+    text-shadow: 0 0.2vw black;
+    display: block;
+    width: 20vw;
+    text-align: center;
+}
+
+#navbar h5 {
+    position: relative;
+    float: left;
+    font-size: 2vw;
+    font-family: 'Fira Sans Condensed';
+    color: white;
+    text-shadow: 0 0.2vw black;
+    display: block;
+    width: 20vw;
+    text-align: center;
+    top: 1.5vw;
 }
