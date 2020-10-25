@@ -147,11 +147,14 @@ header {
     height: 5.5vw;
     width: 100vw;
     top: -5.5vw;
-    background-image: linear-gradient(to left, rgb(100, 71, 34) 40%, rgb(7, 87, 0));
+    /* background-image: linear-gradient(to left, rgb(100, 71, 34) 40%, rgb(7, 87, 0)); */
+    background-image: url("srcs/button_background.jpg");
+    filter: brightness(150%);
     box-shadow: 0 0 2vw 0 black inset;
     transition: 0.4s;
+    float: left;
 }
-#navbar a { text-decoration: none;}
+#navbar a { text-decoration: none; }
 
 #nav_title {
     position: relative;
