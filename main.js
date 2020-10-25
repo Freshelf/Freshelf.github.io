@@ -8,3 +8,21 @@ function scrolling() {
         navbar.style.top = "-5.5vw";
     }
 }
+function Read_More() {
+    var dots = document.getElementById("dots");
+    var more_txt = document.getElementById("more");
+    var more_btn = document.getElementById("read_M");
+
+    if(dots.style.display ==='none') {
+        dots.style.display = "inline";
+        more_txt.style.display = "none";
+        more_btn.innerHTML = "Read more";
+        }
+    else 
+        {
+        dots.style.display = "none";
+        more_txt.style.display = "inline";
+        more_btn.innerHTML = "Read less";
+        }
+    
+    }
