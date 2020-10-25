@@ -144,12 +144,14 @@ header {
 
 #navbar {
     position: fixed;
-    height: 4vw;
+    height: auto;
     width: 100vw;
-    top: -4vw;
+    top: -2vw;
     /* background-image: linear-gradient(to left, rgb(100, 71, 34) 40%, rgb(7, 87, 0)); */
     background-image: url("srcs/button_background.jpg");
+    background-color: rgba(0, 0, 0, 0);
     filter: brightness(150%);
+    opacity: 0;
     box-shadow: 0 0 2vw 0 black inset;
     transition: 0.4s;
 }
@@ -175,7 +177,7 @@ header {
     color: white;
     text-shadow: 0 0.2vw black;
     width: 20vw;
-    height: 4vw;
+    height: 3vw;
     padding-top: 1vw;
     text-align: center;
 }
