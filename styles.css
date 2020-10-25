@@ -144,8 +144,8 @@ header {
 
 #navbar {
     position: fixed;
-    height: auto;
-    width: auto;
+    height: 5.5vw;
+    width: 100vw;
     top: -5.5vw;
     /* background-image: linear-gradient(to left, rgb(100, 71, 34) 40%, rgb(7, 87, 0)); */
     background-image: url("srcs/button_background.jpg");
