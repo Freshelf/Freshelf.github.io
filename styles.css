@@ -144,46 +144,56 @@ header {
 
 #navbar {
     position: fixed;
-    height: 5.5vw;
+    height: 4vw;
     width: 100vw;
-    top: -5.5vw;
-    background-image: linear-gradient(to left, rgb(100, 71, 34) 40%, rgb(7, 87, 0));
-    box-shadow: 0 0 2vw 0 black inset;
+    top: -2vw;
+    /* background-image: linear-gradient(to left, rgb(100, 71, 34) 40%, rgb(7, 87, 0)); */
+    background-image: url("srcs/button_background.jpg");
+    filter: brightness(150%);
+    opacity: 0;
+    box-shadow: 0 0 2vw 0 black;
     transition: 0.4s;
 }
+<<<<<<< HEAD
 
 #navbar a { text-decoration: none;}
+=======
+#navbar a { text-decoration: none; }
+>>>>>>> 1a94bd1ea2ef44581c0e0cb903abc1c4360e1ce8
 
 #nav_title {
-    position: relative;
     float: left;
-    font-size: 4.5vw;
+    font-size: 3.3vw;
     font-weight: bold;
     font-family: 'Fira Sans Condensed';
     color: white;
     text-shadow: 0 0.2vw black;
-    display: block;
     width: 20vw;
+    height: 4vw;
     text-align: center;
+    overflow-y: hidden;
 }
 
 .nav_button {
-    position: relative;
     float: left;
-    font-size: 2vw;
+    font-size: 1.7vw;
     font-family: 'Fira Sans Condensed';
     color: white;
     text-shadow: 0 0.2vw black;
-    display: block;
     width: 20vw;
+    height: 4vw;
+    padding-top: 1vw;
     text-align: center;
-    top: 1.5vw;
+}
+
+.nav_button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .to_scroll {
     position: relative; 
     height: 0; 
-    top: -5.5vw;
+    top: -4vw;
 }
 /*-------------------------------Contact Form---------------------------------------------------------------------------------*/
   .form_container {
@@ -234,5 +244,3 @@ header {
     cursor: pointer;
       
 }
-
-  
