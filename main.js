@@ -8,3 +8,4 @@ function scrolling() {
         navbar.style.top = "-5.5vw";
     }
 }
+
