@@ -146,9 +146,10 @@ header {
     position: fixed;
     height: 5.5vw;
     width: 100vw;
-    top: 0;
+    top: -5.5vw;
     background-image: linear-gradient(to left, rgb(100, 71, 34) 40%, rgb(7, 87, 0));
     box-shadow: 0 0 2vw 0 black inset;
+    transition: 0.4s;
 }
 #navbar a { text-decoration: none;}
 
