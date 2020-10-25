@@ -144,9 +144,9 @@ header {
 
 #navbar {
     position: fixed;
-    height: 5.5vw;
+    height: 4vw;
     width: 100vw;
-    top: -5.5vw;
+    top: -4vw;
     /* background-image: linear-gradient(to left, rgb(100, 71, 34) 40%, rgb(7, 87, 0)); */
     background-image: url("srcs/button_background.jpg");
     filter: brightness(150%);
@@ -157,25 +157,26 @@ header {
 
 #nav_title {
     float: left;
-    font-size: 4.5vw;
+    font-size: 3.3vw;
     font-weight: bold;
     font-family: 'Fira Sans Condensed';
     color: white;
     text-shadow: 0 0.2vw black;
     width: 20vw;
-    height: 5.5vw;
+    height: 4vw;
     text-align: center;
+    overflow-y: hidden;
 }
 
 .nav_button {
     float: left;
-    font-size: 2vw;
+    font-size: 1.7vw;
     font-family: 'Fira Sans Condensed';
     color: white;
     text-shadow: 0 0.2vw black;
     width: 20vw;
-    height: 4.1vw;
-    padding-top: 1.4vw;
+    height: 4vw;
+    padding-top: 1vw;
     text-align: center;
 }
 
@@ -186,5 +187,5 @@ header {
 .to_scroll {
     position: relative; 
     height: 0; 
-    top: -5.5vw;
+    top: -4vw;
 }
