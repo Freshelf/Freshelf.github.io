@@ -144,42 +144,43 @@ header {
 
 #navbar {
     position: fixed;
-    height: 5.5vw;
-    width: 100vw;
+    height: auto;
+    width: auto;
     top: -5.5vw;
     /* background-image: linear-gradient(to left, rgb(100, 71, 34) 40%, rgb(7, 87, 0)); */
     background-image: url("srcs/button_background.jpg");
     filter: brightness(150%);
     box-shadow: 0 0 2vw 0 black inset;
     transition: 0.4s;
-    float: left;
 }
 #navbar a { text-decoration: none; }
 
 #nav_title {
-    position: relative;
     float: left;
     font-size: 4.5vw;
     font-weight: bold;
     font-family: 'Fira Sans Condensed';
     color: white;
     text-shadow: 0 0.2vw black;
-    display: block;
     width: 20vw;
+    height: 5.5vw;
     text-align: center;
 }
 
 .nav_button {
-    position: relative;
     float: left;
     font-size: 2vw;
     font-family: 'Fira Sans Condensed';
     color: white;
     text-shadow: 0 0.2vw black;
-    display: block;
     width: 20vw;
+    height: 4.1vw;
+    padding-top: 1.4vw;
     text-align: center;
-    top: 1.5vw;
+}
+
+.nav_button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .to_scroll {
