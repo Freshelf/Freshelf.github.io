@@ -144,7 +144,7 @@ header {
 
 #navbar {
     position: fixed;
-    height: auto;
+    height: 4vw;
     width: 100vw;
     top: -2vw;
     /* background-image: linear-gradient(to left, rgb(100, 71, 34) 40%, rgb(7, 87, 0)); */
@@ -177,7 +177,7 @@ header {
     color: white;
     text-shadow: 0 0.2vw black;
     width: 20vw;
-    height: 3vw;
+    height: 4vw;
     padding-top: 1vw;
     text-align: center;
 }
