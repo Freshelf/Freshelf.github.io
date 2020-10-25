@@ -116,5 +116,7 @@ header {
     display: none;
 }
 .btn_read_more {
-    
+    background-color: #8ca13a;
+    border-radius: 10px;
+    cursor: pointer;
 }
