@@ -12,17 +12,20 @@ function Read_More() {
     var dots = document.getElementById("dots");
     var more_txt = document.getElementById("more");
     var more_btn = document.getElementById("read_M");
+    var inter_block = document.getElementById("inter");
 
     if(dots.style.display ==='none') {
         dots.style.display = "inline";
         more_txt.style.display = "none";
         more_btn.innerHTML = "Read more";
+        inter_block.style.display = "block";
         }
     else 
         {
         dots.style.display = "none";
         more_txt.style.display = "inline";
         more_btn.innerHTML = "Read less";
+        inter_block.style.display = "none"
         }
     
     }
