@@ -1,7 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    outline:none; 
     }
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap");
 
@@ -125,6 +126,8 @@ header {
     background-color: #65c35c;
     padding: 0px;
     display: block;
+   
+
 } 
 
 #features_text{
@@ -139,6 +142,31 @@ header {
     box-shadow: 10px 10px 30px black;
 
 }
+#more {
+    display: none;
+}
+.btn_read_more {
+    background-color: #65c36f;
+    color:white;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family:'Fira Sans Condensed', sans-serif;
+    backface-visibility: hidden;
+
+}
+.btn_read_more a {
+    text-align: center;
+    padding: none;
+}
+.btn_read_more:hover {
+    background-color:#588a45;
+    box-shadow: 2px 4px 4px black;
+
+
+}
+
 
 /*---------------------------Navigation Bar Styles-----------------------------*/
 
