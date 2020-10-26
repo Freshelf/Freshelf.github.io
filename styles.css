@@ -19,6 +19,11 @@ body{
     background-color: #3f443d;
 }
 
+.fullscreen{
+    width: 100%;
+    height:100%;
+}
+
 /*-----------------------------------header styles---------------------------------------------------------------------------------*/
 
 header {
@@ -116,41 +121,68 @@ header {
 }
 /*-------------------------------section features styles---------------------------------------------------------------------------------*/
 
-#features_title{
-    margin-left: 250px;
-    margin-top: 30px; 
-    font-family: 'Fira Sans Condensed', sans-serif; 
-    color:aliceblue;
+.equalheight{
+    display: flex;
 }
 
-#features_left{
+#features_title{
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    color:aliceblue;
+    margin-top: 50px;
+}
+
+.equalheight > #features_left{
     background-color: #44312d;
     font-family: 'Courier New', Courier, monospace;
     color: #f2ebd9;
     display: block;
     border: 10px black;
     font-size: 25px;
-    box-shadow: 10px 10px 30px black;
-    margin: 0; 
+    box-shadow: 10px 10px 30px black; 
     float: left;
-    width: 800px;
+    width:100%;
+  
+
 }
-#features_right{
+.equalheight > #features_right{
     background-color: #65c35c;
     padding: 0px;
     display: block;
    
-
+ 
 } 
 
-#features_text{
+#features_image{
+    width:60% ;
+    height:60%;
+    margin-left: 20%; 
+    margin-right: 0%;
+    margin-bottom: 0%; 
+    margin-top: 10%;
+    box-shadow: 10px 10px 30px black;
+}
+
+#features_textv1{
     color: white;
-    margin: 25px;
+    margin: 50px;
     margin-top: 50px;
     font-family:'Fira Sans Condensed', sans-serif;
     font-size: 18.99px;
     height: auto;
 }
+
+#features_text{
+    color: white;
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+    font-family:'Fira Sans Condensed', sans-serif;
+    font-size: 18.99px;
+    height: auto;
+}
+
+
 #inter{
     box-shadow: 10px 10px 30px black;
 
@@ -167,17 +199,21 @@ header {
     border-radius: 5px;
     font-family:'Fira Sans Condensed', sans-serif;
     backface-visibility: hidden;
-
+    
 }
 .btn_read_more a {
     text-align: center;
     padding: none;
 }
+
 .btn_read_more:hover {
     background-color:#588a45;
     box-shadow: 2px 4px 4px black;
+}
 
-
+#more{
+    margin-top: 15px; 
+    width: 40%;
 }
 
 
