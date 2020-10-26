@@ -294,7 +294,6 @@ header {
 /*---------------------------Navigation Bar Styles-----------------------------*/
 
 #navbar {
-    display: none;
     z-index: 100;
     position: fixed;
     height: 4vw;
