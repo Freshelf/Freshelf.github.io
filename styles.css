@@ -15,6 +15,10 @@
     margin-right: 50px;
 }
 
+body{
+    background-color: #3f443d;
+}
+
 /*-----------------------------------header styles---------------------------------------------------------------------------------*/
 
 header {
@@ -112,6 +116,12 @@ header {
 }
 /*-------------------------------section features styles---------------------------------------------------------------------------------*/
 
+#features_title{
+    margin-left: 250px;
+    margin-top: 30px; 
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    color:aliceblue;
+}
 
 #features_left{
     background-color: #44312d;
@@ -121,6 +131,9 @@ header {
     border: 10px black;
     font-size: 25px;
     box-shadow: 10px 10px 30px black;
+    margin: 0; 
+    float: left;
+    width: 800px;
 }
 #features_right{
     background-color: #65c35c;
@@ -168,9 +181,112 @@ header {
 }
 
 
+/*-------------------------------section prices styles---------------------------------------------------------------------------------*/
+
+#prices_title{
+    text-align: center;
+}
+
+#prices_free_title{
+    margin-left: 25px;
+    margin-top: 10px; 
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    color:aliceblue; 
+}
+
+#prices_paid_title{
+    margin-left: 25px;
+    margin-top: 10px; 
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    color:black;
+}
+
+#prices_left{
+    background-color: #65c35c;
+    padding: 0px;
+    display: block;
+    margin: 0; 
+    float: left;
+
+}
+#prices_right{
+    background-color: black;
+    display: block;
+    border: 10px black;
+    font-size: 25px;
+    box-shadow: 10px 10px 30px black;
+    height:auto; 
+    margin-left: 0px;
+} 
+
+#prices_text{
+    color: white;
+    margin: 25px;
+    margin-top: 50px;
+    font-family:'Fira Sans Condensed', sans-serif;
+    font-size: 18.99px;
+    height: auto;
+}
+
+#prices_text_right{
+    color: black;
+    margin: 25px;
+    margin-top: 50px;
+    font-family:'Fira Sans Condensed', sans-serif;
+    font-size: 18.99px;
+    height: auto;
+
+}
+#inter{
+    box-shadow: 10px 10px 30px black;
+    height: 20vh; 
+    background: #3f443d; 
+    margin-bottom: 70px;
+
+}
+
+/*-------------------------------contact styles---------------------------------------------------------------------------------*/
+
+#prices_free_title{
+    margin-left: 25px;
+    margin-top: 10px; 
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    color:aliceblue; 
+}
+
+#contact_title{
+    text-align: center;
+    margin-top: 30px; 
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    color: black;
+}
+
+#contact_right{
+    background-color: #f2ebd9;
+    display: block;
+    border: 10px black;
+    font-size: 25px;
+    box-shadow: 10px 10px 30px black;
+    height:auto; 
+    margin-left: 0px;
+} 
+
+#contact_text_left{
+    color: aliceblue;
+    margin: 25px;
+    margin-top: 50px;
+    font-family:'Fira Sans Condensed', sans-serif;
+    font-size: 18.99px;
+    height: auto;
+
+}
+
+
+
 /*---------------------------Navigation Bar Styles-----------------------------*/
 
 #navbar {
+    z-index: 100;
     position: fixed;
     height: 4vw;
     width: 100vw;
@@ -180,7 +296,7 @@ header {
     filter: brightness(150%);
     opacity: 0;
     box-shadow: 0 0 2vw 0 black;
-    transition: 0.4s;
+    transition: 0.7s;
 }
 
 #navbar a { text-decoration: none;}
@@ -268,4 +384,13 @@ header {
     cursor: pointer;
      
  }
+/*---------------------------Footer Styles-----------------------------*/
+
+ footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
  
