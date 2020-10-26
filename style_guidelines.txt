@@ -1,7 +1,7 @@
 Overall Look and Feel of Freshelf
 ================================
 
-The overall look and feel simple but layered. It should give a sense of depth, in the same fashion the Freshelf product is basic and deep.
+The overall look and feel is simple but layered. It should give a sense of depth, in the same fashion the Freshelf product is basic and deep.
 Their is also a cozy feel, with the simple wooden backgrounds in the header and the navigation bar.
 
 Colours
