@@ -140,6 +140,59 @@ header {
 
 }
 
+/*-------------------------------section prices styles---------------------------------------------------------------------------------*/
+
+#prices_title{
+    text-align: center;
+}
+
+#prices_free_title{
+    margin-left: 25px;
+    margin-top: 10px; 
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    color:aliceblue"
+}
+
+
+#prices_paid_title{
+    margin-left: 25px;
+    margin-top: 10px; 
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    color:aliceblue"
+}
+
+#prices_left{
+    background-color: #65c35c;
+    padding: 0px;
+    display: block;
+    margin: 0; 
+    float: left;
+    width: 800px"
+
+}
+#prices_right{
+    background-color: #44312d;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f2ebd9;
+    display: block;
+    border: 10px black;
+    font-size: 25px;
+    box-shadow: 10px 10px 30px black;
+} 
+
+#prices_text{
+    color: white;
+    margin: 25px;
+    margin-top: 50px;
+    font-family:'Fira Sans Condensed', sans-serif;
+    font-size: 18.99px;
+    height: auto;
+}
+#inter{
+    box-shadow: 10px 10px 30px black;
+
+}
+
 /*---------------------------Navigation Bar Styles-----------------------------*/
 
 #navbar {
