@@ -24,16 +24,16 @@
         <div id="header_buttons">
             <a href="#features_scroll" style="text-decoration: none;">Features</a>
             <a href="#prices_scroll" style="text-decoration: none;">Prices</a>
-            <a href="#team_scroll" style="text-decoration: none;">Team</a>
             <a href="#contact_scroll" style="text-decoration: none;">Contact</a>
+            <a href="#team_scroll" style="text-decoration: none;">Team</a>
         </div>
     </header>
     <div id="navbar">
         <a class="nav_button" href="#features_scroll">Features</a>
         <a class="nav_button" href="#prices_scroll">Prices</a>
         <div id="nav_title">FRESHELF</div>
-        <a class="nav_button" href="#team_scroll">Team</a>
         <a class="nav_button" href="#contact_scroll">Contact</a>
+        <a class="nav_button" style="margin-right: -10px;" href="#team_scroll">Team</a>
     </div>
     <body class = "Main_content" style = "margin: 0;">
         <div id="features_scroll" class="to_scroll"></div> <!-- don't remove this as top of Main_content -->
@@ -52,9 +52,9 @@
             <p>Here at Freshelf, our number one priority is to help you stop losing money on wasted food. Our easy-to-use app is filled with efficient tracking algorithms to help you save money and live a fresher life. At the supermarket, just scan your phone at the register and all the food that you purchased will be automatically added to our Freshelf app! Listed are the expiry dates, date of purchase, quantity of item, and many other features tailored to your needs. Let us help you reduce your food waste and plan better. </p>
             <br>
             <h2 style = "color:black;font-size: 28px">
-                How the product works?
+                How the product works?<span id = "dots">...</span>
             </h2>
-            <p style = "margin-top: 15px">
+            <span id = "more" style = "margin-top: 15px">
                 <ul>
                     <li>At register, scan QR code to link the app to the register directly</li>
                     <li>As foods are scanned, they also appear in your app, removing the need to manually scan them yourself</li>
@@ -62,8 +62,8 @@
                     <li>If the food item is fresh produce, an estimated expiry date is used</li>
                     <li>If you scan something that is not food (ex. you’re also buying a magazine), the app omits it into another category (but you can add the magazine back into the main selection if desired)</li>
                 </ul>
-            </p>
-
+            </span>
+            <button onclick= "Read_More()" class = btn_read_more id="read_M">Read more</button>
         </section>
        
         </section>
@@ -72,14 +72,17 @@
 
 
         <section id="prices_content" style="height: 30vh;margin-left: 0px;">
+
             <div id="prices_scroll" class="to_scroll"></div> <!-- don't remove this as top of prices_content -->
             </section>
 
             <section id = "prices_left">
             <p>
+
                 <h3 id="prices_free_title">
                     Free:
                 </h3> 
+
             </p>
             <p>
                 <section id="prices_text">
@@ -139,6 +142,7 @@
         <section id="contact_content" style="height: auto; margin-left: 0px;">
         <div id="contact_scroll" class="to_scroll"></div> <!-- don't remove this as top of contact_content -->
 
+
         <section id="contact_right">
             <h1 id= "contact_title">Contact</h1>
     </section>
@@ -150,6 +154,27 @@
             </section>
             </section>
           
+
+        <h1>Contact</h1>
+            <br>Email: freshelf.official@gmail.com
+            <br>Contact Number: +1 613 999 1345
+            <br>
+            <br><button onclick= "Read_More()" class = "btn_read_more" id ="btn_Q">Contact Us</button>
+            <form class="form_container">
+                <h4>
+                    <label for="user_name">Name:</label>
+                    <input type="text" placeholder="Write your name here...">
+  
+                     <label for="user_email">Email:</label>
+                    <input type="text" placeholder="Let us know how to get back...">
+  
+                    <label for="user_message">Message:</label>
+                    <input type="text" placeholder="We're all ears...">
+                   
+                <button type="submit" id="form_button">Send Message</button>
+                </h4>
+                </form>
+
         </section>
             <div style="margin-top:200px"></div>
 
@@ -166,6 +191,6 @@
 
         <!--For blank space at bottom of page-->
         <div style="margin-top:1000px"></div>
-    <script src="main.js"></script>
+    <script src="main.js" type="text/javascript"></script>
     </body>
 </html>

@@ -1,7 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    outline:none; 
     }
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap");
 
@@ -138,6 +139,8 @@ header {
     background-color: #65c35c;
     padding: 0px;
     display: block;
+   
+
 } 
 
 #features_text{
@@ -152,6 +155,31 @@ header {
     box-shadow: 10px 10px 30px black;
 
 }
+#more {
+    display: none;
+}
+.btn_read_more {
+    background-color: #65c36f;
+    color:white;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family:'Fira Sans Condensed', sans-serif;
+    backface-visibility: hidden;
+
+}
+.btn_read_more a {
+    text-align: center;
+    padding: none;
+}
+.btn_read_more:hover {
+    background-color:#588a45;
+    box-shadow: 2px 4px 4px black;
+
+
+}
+
 
 /*-------------------------------section prices styles---------------------------------------------------------------------------------*/
 
@@ -258,44 +286,111 @@ header {
 /*---------------------------Navigation Bar Styles-----------------------------*/
 
 #navbar {
+    z-index: 100;
     position: fixed;
-    height: 5.5vw;
+    height: 4vw;
     width: 100vw;
-    top: -5.5vw;
-    background-image: linear-gradient(to left, rgb(100, 71, 34) 40%, rgb(7, 87, 0));
-    box-shadow: 0 0 2vw 0 black inset;
-    transition: 0.4s;
+    top: -2vw;
+    /* background-image: linear-gradient(to left, rgb(100, 71, 34) 40%, rgb(7, 87, 0)); */
+    background-image: url("srcs/button_background.jpg");
+    filter: brightness(150%);
+    opacity: 0;
+    box-shadow: 0 0 2vw 0 black;
+    transition: 0.7s;
 }
+
 #navbar a { text-decoration: none;}
 
 #nav_title {
-    position: relative;
     float: left;
-    font-size: 4.5vw;
+    font-size: 3.3vw;
     font-weight: bold;
     font-family: 'Fira Sans Condensed';
     color: white;
     text-shadow: 0 0.2vw black;
-    display: block;
     width: 20vw;
+    height: 4vw;
     text-align: center;
+    overflow-y: hidden;
 }
 
 .nav_button {
-    position: relative;
     float: left;
-    font-size: 2vw;
+    font-size: 1.7vw;
     font-family: 'Fira Sans Condensed';
     color: white;
     text-shadow: 0 0.2vw black;
-    display: block;
     width: 20vw;
+    height: 4vw;
+    padding-top: 1vw;
     text-align: center;
-    top: 1.5vw;
+}
+
+.nav_button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .to_scroll {
     position: relative; 
     height: 0; 
-    top: -5.5vw;
+    top: -4vw;
 }
+/*-------------------------------Contact Form---------------------------------------------------------------------------------*/
+.form_container {
+    width: 340px;
+    height: 440px;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 8px;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+    border:2px solid #65c35c;
+    box-shadow: 0 0 40px -10px #000;
+    z-index: -1;
+  }
+  
+  .form_container input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  .form_container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+ #form_button{
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    border: 2px solid #65c35c;
+    background: 0;
+    color: #65c35c;
+    cursor: pointer;
+     
+ }
+  
+ #form_button:hover{
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    border: 2px solid #44312d;
+    background: 0;
+    color: #44312d;
+    cursor: pointer;
+     
+ }
+/*---------------------------Footer Styles-----------------------------*/
+
+ footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+ 

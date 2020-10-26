@@ -1,0 +1,29 @@
+Overall Look and Feel of Freshelf
+================================
+
+The overall look and feel simple but layered. It should give a sense of depth, in the same fashion the Freshelf product is basic and deep.
+Their is also a cozy feel, with the simple wooden backgrounds in the header and the navigation bar.
+
+Colours
+=========
+We tried using colors that are relaxing to the user and that revolve around a green theme.
+There are the colors we used : 
+- #65c35c
+- #44312d
+- #f2ebd9
+- #3f443d
+
+Typography
+===========
+We'll be using Fira from google font and the demo of a font called Stepped.
+
+Links
+======
+Links are not underlined, and have a variety of looks. There are no links to external sources however; only to scroll to anchors on
+the one page, as well as to open pop-up 'windows'.
+
+Buttons
+========
+As mentioned in the overall look and feel section, the buttons in the navigation bar and the header will have wooden textures.
+The buttons in the sections themselves will have the same look as their respective section, but 3D to symbolize
+that pressing them will open a pop-up window independant of the rest of the page.
