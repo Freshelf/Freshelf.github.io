@@ -10,6 +10,7 @@ function scrolling() {
         navbar.style.opacity = "0";
     }
 }
+
 function Read_More() {
     var dots = document.getElementById("dots");
     var more_txt = document.getElementById("more");
