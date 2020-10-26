@@ -37,8 +37,8 @@
     </div>
     <body class = "Main_content" style = "margin: 0;">
         <div id="features_scroll" class="to_scroll"></div> <!-- don't remove this as top of Main_content -->
-        <section id = "features_left" style = "margin: 0; float: left;width: 800px">
-            <h1 id = "features_title" style = "margin-left: 250px;margin-top: 30px; font-family: 'Fira Sans Condensed', sans-serif; color:aliceblue">
+        <section id = "features_left">
+            <h1 id = "features_title">
                 Product Features
             </h1>
             <img id = "image" src="srcs/Pantry.jpg" alt="Kitchen Pantry" width="500" height="600" style="margin-left: 130px; margin-bottom: 74px; margin-top: 33px;box-shadow: 10px 10px 30px black;">
@@ -68,48 +68,93 @@
        
         </section>
 
-        <section id="inter" style="height: 20vh; background: #3f443d; margin-bottom: 70px"></section>
+        <!--<section id="inter"></section>-->
 
-        <section id="prices_content" style="height: auto;margin-left: 50px;">
+
+        <section id="prices_content" style="height: 30vh;margin-left: 0px;">
+
             <div id="prices_scroll" class="to_scroll"></div> <!-- don't remove this as top of prices_content -->
-            <h1>Prices</h1>
+            </section>
+
+            <section id = "prices_left">
             <p>
-                <h3>Free:</h3>
+
+                <h3 id="prices_free_title">
+                    Free:
+                </h3> 
+
             </p>
             <p>
+                <section id="prices_text">
                 <ul>
                     <li>Auto-sort by expiry date</li>
                     <li>Sort by food category (ex. dairy, fruits, vegetables...)</li>
                     <li>Lists the quanity of every food item</li>
                 </ul>
+            </section> 
             </p>
-            <br>
+        </section>
+    
+        <br>
+
+        <section id="prices_right">
             <p>
-                <h3>Paid:</h3>
+                <h3 id="prices_paid_title">
+                    Paid:
+                </h3>
             </p>
             <p>
+                <section id="prices_text_right">
                 <ul>
                     <li>Provides recipe suggestions based on inventory</li>
                     <li>Recipe suggestions account for dietary restrictions</li>
                     <li>Shows grocery brochures for stores near you</li>
                     <li>Sync across different devices</li>
                 </ul>
+                </section>
             </p>
         </section>
+    </section>
+
+        
             <div style="margin-top:200px"></div>
 
-        <section id="team_content" style="height: atuo;margin-left: 50px;">
+        <section id="team_content" style="height: auto;margin-left: 0px;">
         <div id="team_scroll" class="to_scroll"></div> <!-- don't remove this as top of team_content -->
-        <h1>The Fresh Team</h1>
-            <br><img src="srcs/instagram.png" alt="Instagram Logo" height="20px" style="float: inline-start"> Instagram: @freshelf.official
-            
-            <br><img src="srcs/twitter.png" alt="Twitter Logo" height="20px" style="float: inline-start"> Twitter: @freshshelf.official
+       
+        <section id="features_left">
+        <h1 id="features_title">The Fresh Team</h1>
+    </section>
 
-            <div style="margin-top:200px"></div>
+            <section id="features_right">
+                <section id="features_text">
+                <br><img src="srcs/instagram.png" alt="Instagram Logo" height="20px" style="float: inline-start"> Instagram: @freshelf.official
+                
+                <br><img src="srcs/twitter.png" alt="Twitter Logo" height="20px" style="float: inline-start"> Twitter: @freshshelf.official
+
+                <div style="margin-top:200px"></div>
+            </section>
+        </section>
         </section>
 
-        <section id="contact_content" style="height: auto; margin-left: 50px;">
+        <div style="margin-top:200px"></div>
+
+        <section id="contact_content" style="height: auto; margin-left: 0px;">
         <div id="contact_scroll" class="to_scroll"></div> <!-- don't remove this as top of contact_content -->
+
+
+        <section id="contact_right">
+            <h1 id= "contact_title">Contact</h1>
+    </section>
+    
+            <section id="prices_left">
+                <section id="contact_text_left">
+                <br>Email: freshelf.official@gmail.com
+                <br>Contact Number: +1 613 999 1345
+            </section>
+            </section>
+          
+
         <h1>Contact</h1>
             <br>Email: freshelf.official@gmail.com
             <br>Contact Number: +1 613 999 1345
@@ -129,6 +174,7 @@
                 <button type="submit" id="form_button">Send Message</button>
                 </h4>
                 </form>
+
         </section>
             <div style="margin-top:200px"></div>
 
