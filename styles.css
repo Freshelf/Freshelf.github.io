@@ -155,6 +155,7 @@ header {
     border-radius: 5px;
     font-family:'Fira Sans Condensed', sans-serif;
     backface-visibility: hidden;
+    z-index: 0;
 
 }
 .btn_read_more a {
@@ -181,6 +182,7 @@ header {
     filter: brightness(150%);
     box-shadow: 0 0 2vw 0 black inset;
     transition: 0.4s;
+    z-index: 100;
 }
 #navbar a { text-decoration: none; }
 
@@ -217,3 +219,55 @@ header {
     height: 0; 
     top: -5.5vw;
 }
+/*-------------------------------Contact Form---------------------------------------------------------------------------------*/
+#form_content {
+    display: none;
+}
+.form_container {
+    width: 340px;
+    height: 440px;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 8px;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+    border:2px solid #65c35c;
+    box-shadow: 0 0 40px -10px #000;
+    z-index: 0;
+  }
+
+  .form_container input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  .form_container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+ .form_button{
+    float: left;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    border: 2px solid #65c35c;
+    background: 0;
+    color: #65c35c;
+    cursor: pointer;
+
+ }
+
+ .form_button:hover{
+    float: left;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    border: 2px solid #44312d;
+    background: 0;
+    color: #44312d;
+    cursor: pointer;
+
+ }

@@ -25,7 +25,22 @@ function Read_More() {
         dots.style.display = "none";
         more_txt.style.display = "inline";
         more_btn.innerHTML = "Read less";
-        inter_block.style.display = "none"
+        inter_block.style.display = "none";
+        }
+    
+    }
+function form1() {
+    var cont = document.getElementById("form_content");
+    var c_mbtn = document.getElementById("form_button1");
+
+    if(cont.style.display ==='block') {
+        cont.style.display = "none";
+        c_mbtn.innerHTML = "Contact Us";
+        }
+    else 
+        {
+        cont.style.display = "block";
+        c_mbtn.innerHTML = "Cancel";
         }
     
     }
