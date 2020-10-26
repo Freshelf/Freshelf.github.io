@@ -157,8 +157,8 @@
             <br>Email: freshelf.official@gmail.com
             <br>Contact Number: +1 613 999 1345
             <br>
-            <br><button onclick= "Read_More()" class = "btn_read_more" id ="btn_Q">Contact Us</button>
-            <form class="form_container">
+            <br><button onclick ="form1()" class = "form_button" id ="form_button1">Contact Us</button>
+            <form class="form_container" id = "form_content">
                 <h4>
                     <label for="user_name">Name:</label>
                     <input type="text" placeholder="Write your name here...">
@@ -169,7 +169,7 @@
                     <label for="user_message">Message:</label>
                     <input type="text" placeholder="We're all ears...">
                    
-                <button type="submit" id="form_button">Send Message</button>
+                <a onclick ="close_form()" class = "form_button" type="submit" id="form_button">Send Message</a>
                 </h4>
                 </form>
 

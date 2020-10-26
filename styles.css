@@ -294,6 +294,7 @@ header {
 /*---------------------------Navigation Bar Styles-----------------------------*/
 
 #navbar {
+    display: none;
     z-index: 100;
     position: fixed;
     height: 4vw;
@@ -344,6 +345,9 @@ header {
     top: -4vw;
 }
 /*-------------------------------Contact Form---------------------------------------------------------------------------------*/
+#form_content{
+    display: none;
+}
 .form_container {
     width: 340px;
     height: 440px;
@@ -355,7 +359,7 @@ header {
     box-sizing: border-box;
     border:2px solid #65c35c;
     box-shadow: 0 0 40px -10px #000;
-    z-index: -1;
+    z-index: 0;
   }
   
   .form_container input[type=text]{
@@ -371,8 +375,8 @@ header {
     outline: none;
   }
   
- #form_button{
-    float: right;
+ .form_button{
+    float: left;
     padding: 8px 12px;
     margin: 8px 0 0;
     border: 2px solid #65c35c;
@@ -382,8 +386,8 @@ header {
      
  }
   
- #form_button:hover{
-    float: right;
+ .form_button:hover{
+    float: left;
     padding: 8px 12px;
     margin: 8px 0 0;
     border: 2px solid #44312d;

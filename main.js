@@ -5,11 +5,14 @@ function scrolling() {
     if (document.body.scrollTop > window.innerHeight - window.innerWidth*0.04 || document.documentElement.scrollTop > window.innerHeight - window.innerWidth*0.04) {
         navbar.style.top = "0";
         navbar.style.opacity = "1";
+        navbar.style.display = "block";
     } else {
         navbar.style.top = "-2vw";
         navbar.style.opacity = "0";
+        navbar.style.display = "none";
     }
 }
+
 
 function Read_More() {
     var dots = document.getElementById("dots");
@@ -29,3 +32,26 @@ function Read_More() {
         }
     
     }
+function form1() {
+    var cont = document.getElementById("form_content");
+    var c_mbtn = document.getElementById("form_button1");
+    var send_btn = document.getElementById("form_button");
+    
+    if(cont.style.display ==='block') {
+        cont.style.display = "none";
+        c_mbtn.innerHTML = "Contact Us";
+        }
+    else 
+        {
+        cont.style.display = "block";
+        c_mbtn.innerHTML = "Cancel";
+        }
+        
+    }
+    function close_form() {
+        var cont = document.getElementById("form_content");
+        var c_mbtn = document.getElementById("form_button1");
+        var send_btn = document.getElementById("form_button");
+        cont.style.display = "none";
+        c_mbtn.innerHTML = "Contact Us";
+        }
