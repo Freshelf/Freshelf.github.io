@@ -120,3 +120,53 @@ header {
     border-radius: 10px;
     cursor: pointer;
 }
+
+/*-------------------------------Contact Form---------------------------------------------------------------------------------*/
+.form_container {
+    width: 340px;
+    height: 440px;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 8px;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+    border:2px solid #65c35c;
+    box-shadow: 0 0 40px -10px #000;
+    z-index: -1;
+  }
+
+  .form_container input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  .form_container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+ #form_button{
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    border: 2px solid #65c35c;
+    background: 0;
+    color: #65c35c;
+    cursor: pointer;
+
+ }
+
+ #form_button:hover{
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    border: 2px solid #44312d;
+    background: 0;
+    color: #44312d;
+    cursor: pointer;
+
+ }
