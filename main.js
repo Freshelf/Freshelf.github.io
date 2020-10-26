@@ -10,6 +10,9 @@ function scrolling() {
         navbar.style.opacity = "0";
     }
 }
+<<<<<<< HEAD
+
+=======
 function Read_More() {
     var dots = document.getElementById("dots");
     var more_txt = document.getElementById("more");
@@ -28,3 +31,4 @@ function Read_More() {
         }
     
     }
+>>>>>>> 555feb55c09b256ffee883203294e32a16b8d735
