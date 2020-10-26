@@ -210,7 +210,7 @@ header {
 
 }
 #prices_right{
-    background-color: black;
+    background-color:#f2ebd9;
     display: block;
     border: 10px black;
     font-size: 25px;
@@ -268,20 +268,28 @@ header {
     font-size: 25px;
     box-shadow: 10px 10px 30px black;
     height:auto; 
-    margin-left: 0px;
+    margin: 0px;
+    float: right;
+    width: 800px;
 } 
+
+#contact_left{
+    background-color: #65c35c;
+    padding: 0px;
+    display: block;
+    
+}
+
 
 #contact_text_left{
     color: aliceblue;
     margin: 25px;
-    margin-top: 50px;
+    margin-top: 25px;
     font-family:'Fira Sans Condensed', sans-serif;
     font-size: 18.99px;
     height: auto;
 
 }
-
-
 
 /*---------------------------Navigation Bar Styles-----------------------------*/
 
