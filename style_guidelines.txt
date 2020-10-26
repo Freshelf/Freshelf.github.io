@@ -6,11 +6,16 @@ Their is also a cozy feel, with the simple wooden backgrounds in the header and 
 
 Colours
 =========
-colour stuff
+We tried using colors that are relaxing to the user and that revolve around a green theme.
+There are the colors we used : 
+- #65c35c
+- #44312d
+- #f2ebd9
+- #3f443d
 
 Typography
 ===========
-Typography stuff
+We'll be using Fira from google font and the demo of a font called Stepped.
 
 Links
 ======
