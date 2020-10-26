@@ -171,6 +171,7 @@ header {
 /*---------------------------Navigation Bar Styles-----------------------------*/
 
 #navbar {
+    z-index: 100;
     position: fixed;
     height: 4vw;
     width: 100vw;
