@@ -128,19 +128,17 @@ header {
     font-family: 'Courier New', Courier, monospace;
     color: #f2ebd9;
     display: block;
-    border: 10px black;
     font-size: 25px;
-    box-shadow: 10px 10px 30px black;
-    margin: 0; 
-    float: left;
-    width: 800px;
+    width: auto;
+    
 }
 #features_right{
     background-color: #65c35c;
     padding: 0px;
     display: block;
-   
-
+    box-shadow: 10px 10px 30px 10px black;
+    width: 45%;
+    float: right;
 } 
 
 #features_text{
@@ -199,12 +197,17 @@ header {
 
 #prices_left{
     background-color: #65c35c;
-    padding: 0px;
-    display: block;
-    margin-bottom: 20%; 
+    display: block; 
     float: left;
-    width: 50%;
+    width: 45%;
+    box-shadow: 10px 10px 30px black;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f2ebd9;
+    border: 10px black;
+    font-size: 25px;
+    height: 630px;
 }
+
 #prices_right{
     background-color:#f2ebd9;
     display: block;
@@ -212,7 +215,7 @@ header {
     font-size: 25px;
     box-shadow: 10px 10px 30px black;
     height:auto; 
-    margin-left: 0px;
+  
 } 
 
 #prices_text{
@@ -241,52 +244,101 @@ header {
 
 }
 
+/*-------------------------------Fresh Team styles---------------------------------------------------------------------------------*/
 
-/*-------------------------------contact styles---------------------------------------------------------------------------------*/
-
-#prices_free_title{
-    margin-left: 25px;
-    margin-top: 10px; 
-    font-family: 'Fira Sans Condensed', sans-serif; 
-    color:aliceblue; 
-}
-
-#contact_title{
-    text-align: center;
+#team_title{
+    margin-left: 250px;
     margin-top: 30px; 
     font-family: 'Fira Sans Condensed', sans-serif; 
-    color: black;
+    color:aliceblue;
 }
 
-#contact_right{
-    background-color: #f2ebd9;
-    display: block;
-    border: 10px black;
-    font-size: 25px;
-    box-shadow: 10px 10px 30px black;
-    height:auto; 
-    margin: 0px;
-    float: right;
-    width: 800px;
-} 
 
-#contact_left{
+#team_title{
+    margin-left: 250px;
+    margin-top: 30px; 
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    color:aliceblue;
+}
+
+#team_left{
+    background-color: #44312d;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f2ebd9;
+    display: block;
+    font-size: 25px;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#team_right{
     background-color: #65c35c;
     padding: 0px;
     display: block;
-    height: 600px;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f2ebd9;
+    box-shadow: 10px 10px 30px 10px black;
+    width: 45%;
+    height: 630px;
     
-}
+} 
 
-
-#contact_text_left{
-    color: aliceblue;
+#team_text{
+    text-align: center;
+    color: white;
     margin: 25px;
-    margin-top: 25px;
+    margin-top: 50px;
     font-family:'Fira Sans Condensed', sans-serif;
     font-size: 18.99px;
     height: auto;
+}
 
+
+
+
+/*-------------------------------contact styles---------------------------------------------------------------------------------*/
+
+#contact_title{
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    color: black;
+    margin-top: 25px;
+}
+
+
+#contact_left{
+    background-color: #65c35c;
+    display: block; 
+    float: left;
+    width: 45%;
+    box-shadow: 10px 10px 30px black;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f2ebd9;
+    border: 10px black;
+    font-size: 25px;
+    height: 630px;
+}
+
+#contact_right{
+    background-color:#f2ebd9;
+    display: block;
+    border: 10px black;
+    font-size: 25px;
+    height:auto; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+} 
+
+#contact_text{
+    color: white;
+    margin: 25px;
+    margin-top: 50px;
+    font-family:'Fira Sans Condensed', sans-serif;
+    font-size: 18.99px;
+    height: auto;
 }
 
 /*---------------------------Navigation Bar Styles-----------------------------*/
