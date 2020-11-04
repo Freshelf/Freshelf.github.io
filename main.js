@@ -11,6 +11,7 @@ function scrolling() {
     }
 }
 
+
 function Read_More() {
     var dots = document.getElementById("dots");
     var more_txt = document.getElementById("more");
@@ -29,3 +30,26 @@ function Read_More() {
         }
     
     }
+function form1() {
+    var cont = document.getElementById("form_content");
+    var c_mbtn = document.getElementById("form_button1");
+    var send_btn = document.getElementById("form_button");
+    
+    if(cont.style.display ==='block') {
+        cont.style.display = "none";
+        c_mbtn.innerHTML = "Contact Us";
+        }
+    else 
+        {
+        cont.style.display = "block";
+        c_mbtn.innerHTML = "Cancel";
+        }
+        
+    }
+    function close_form() {
+        var cont = document.getElementById("form_content");
+        var c_mbtn = document.getElementById("form_button1");
+        var send_btn = document.getElementById("form_button");
+        cont.style.display = "none";
+        c_mbtn.innerHTML = "Contact Us";
+        }
