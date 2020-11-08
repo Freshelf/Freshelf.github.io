@@ -350,8 +350,8 @@ header {
     width: 100vw;
     top: -2vw;
     /* background-image: linear-gradient(to left, rgb(100, 71, 34) 40%, rgb(7, 87, 0)); */
-    background-image: url("srcs/button_background.jpg");
-    filter: brightness(150%);
+    background-image: url("srcs/buttonbackground2.png");
+    filter: brightness(100%);
     opacity: 0;
     box-shadow: 0 0 2vw 0 black;
     transition: 0.7s;
