@@ -128,8 +128,8 @@ header {
 }
 
 #features_left{
-    background-color: #C4A680;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: #f2ebd9;
+    font-family: 'Fira Sans Condensed', sans-serif;
     color: #f2ebd9;
     display: block;
     font-size: 25px;
@@ -137,7 +137,7 @@ header {
     
 }
 #features_right{
-    background-color: #3E4706;
+    background-color: #65c35c;
     padding: 0px;
     display: block;
     box-shadow: 10px 10px 30px 10px black;
@@ -205,7 +205,7 @@ header {
     float: left;
     width: 45%;
     box-shadow: 10px 10px 30px black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fira Sans Condensed', sans-serif
     color: #f2ebd9;
     border: 10px black;
     font-size: 25px;
@@ -267,7 +267,7 @@ header {
 
 #team_left{
     background-color: #44312d;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fira Sans Condensed', sans-serif;
     color: #f2ebd9;
     display: block;
     font-size: 25px;
@@ -281,7 +281,7 @@ header {
     padding: 0px;
     display: block;
     float: right;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fira Sans Condensed', sans-serif;
     color: #f2ebd9;
     box-shadow: 10px 10px 30px 10px black;
     width: 45%;
@@ -318,7 +318,7 @@ header {
     float: left;
     width: 45%;
     box-shadow: 10px 10px 30px black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fira Sans Condensed', sans-serif;
     color: #f2ebd9;
     border: 10px black;
     font-size: 25px;
@@ -398,8 +398,10 @@ header {
     top: -4vw;
 }
 /*-------------------------------Contact Form---------------------------------------------------------------------------------*/
+
 #form_content{
     display: none;
+    color: #44312d;
 }
 .form_container {
     width: 340px;
@@ -410,7 +412,7 @@ header {
     margin: auto;
     position: relative;
     box-sizing: border-box;
-    border:2px solid #65c35c;
+    border:2px solid #44312d;
     box-shadow: 0 0 40px -10px #000;
     z-index: 0;
   }
@@ -432,14 +434,23 @@ header {
     float: left;
     padding: 8px 12px;
     margin: 8px 0 0;
+    border: 2px solid white;
+    background: 0;
+    color: white;
+    cursor: pointer;
+     
+ }
+ .form_button2{
+    float: left;
+    padding: 8px 12px;
+    margin: 8px 0 0;
     border: 2px solid #65c35c;
     background: 0;
     color: #65c35c;
     cursor: pointer;
-     
  }
   
- .form_button:hover{
+ .form_button:hover, .form_button2:hover{
     float: left;
     padding: 8px 12px;
     margin: 8px 0 0;
