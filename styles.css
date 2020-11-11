@@ -129,13 +129,16 @@ header {
 
 #features_left{
     background-color: #f2ebd9;
+    background-image:  url("srcs/filteredipadwoman.png");
+    background-repeat: no-repeat;
     font-family: 'Fira Sans Condensed', sans-serif;
     color: #f2ebd9;
     display: block;
     font-size: 25px;
     width: auto;
-    
+    height: 90vh;
 }
+
 #features_right{
     background-color: #65c35c;
     padding: 0px;
