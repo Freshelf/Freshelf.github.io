@@ -17,6 +17,8 @@
 
 body{
     background-color: white;
+    font-family:'Fira Sans Condensed', sans-serif;
+
 }
 
 /*-----------------------------------header styles---------------------------------------------------------------------------------*/
@@ -29,10 +31,10 @@ header {
 #header_text {
     padding: 0 0 3vh 0;
     left: 50vw;
-    top: 50vh;
+    top: 45vh;
     transform: translate(-50%, -50%);
     color: white;
-    width: 45vw;
+    width: 60vw;
     height: 34vh;
     position: relative;
     height: auto;
@@ -40,15 +42,15 @@ header {
 
 #header_text h1 {
     font-family:'Fira Sans Condensed', sans-serif;
-    font-size: 10.5vw;
+    font-size: 11vw;
     text-align: center;
     margin: auto;
     filter: brightness(1000%)
 }
 
 #header_text p {
-    font-family: 'Grandstander', cursive;
-    font-size: 1.3vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 2.5vw;
     text-align: center;
     margin-top: 5px;
     filter: brightness(1000%)
@@ -57,7 +59,7 @@ header {
 #header_background {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("srcs/ChoppingBoard.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("srcs/smilecooking.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -89,9 +91,11 @@ header {
     border-radius: 12px;
     margin-left: 1.25vw;
     filter: brightness(100%);
+    background-image: url("srcs/button.jpg");
+    background-size: cover;
     color: white;
     text-align: center;
-    font-family: 'Grandstander', cursive;
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 #header_buttons a:hover {
     filter: brightness(95%);
@@ -124,7 +128,7 @@ header {
 }
 
 #features_left{
-    background-color: #44312d;
+    background-color: #C4A680;
     font-family: 'Courier New', Courier, monospace;
     color: #f2ebd9;
     display: block;
@@ -133,7 +137,7 @@ header {
     
 }
 #features_right{
-    background-color: #65c35c;
+    background-color: #3E4706;
     padding: 0px;
     display: block;
     box-shadow: 10px 10px 30px 10px black;
