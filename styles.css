@@ -296,6 +296,14 @@ header {
     height: auto;
 }
 
+.team_link {
+    color: whitesmoke;
+    text-decoration-line: none;
+}
+.team_link:hover {
+    cursor: pointer;
+    color: rgb(168, 168, 168);
+}
 
 
 
