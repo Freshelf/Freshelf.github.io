@@ -17,6 +17,7 @@
 
 body{
     background-color: white;
+    min-height: 100vh;
 }
 
 /*-----------------------------------header styles---------------------------------------------------------------------------------*/
@@ -337,6 +338,14 @@ header {
     font-size: 18.99px;
     height: auto;
 }
+.team_link {
+    color: white;
+    align-items: center;
+    text-decoration-line: none;
+}
+.team_link:hover {
+    color:rgb(158, 158, 158);
+}
 
 /*---------------------------Navigation Bar Styles-----------------------------*/
 
@@ -452,3 +461,10 @@ header {
     padding-top: 20px;
 }
  
+@media (min-width: 900px) {
+    body {
+        height: 100hh;
+        overflow: hidden;
+
+    }
+}
