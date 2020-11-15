@@ -157,14 +157,14 @@ header {
     display: none;
 }
 .btn_read_more {
-    background-color: #65c36f;
-    color:white;
-    position: relative;
     float: left;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    border: 2px solid whitesmoke;
+    background: 0;
+    color: whitesmoke;
     cursor: pointer;
     border-radius: 5px;
-    font-family:'Fira Sans Condensed', sans-serif;
-    backface-visibility: hidden;
 
 }
 .btn_read_more a {
@@ -172,8 +172,9 @@ header {
     padding: none;
 }
 .btn_read_more:hover {
-    background-color:#588a45;
-    box-shadow: 2px 4px 4px black;
+    border: 2px solid #44312d;
+    background: 0;
+    color: #44312d;
 
 
 }
@@ -432,6 +433,7 @@ header {
     background: 0;
     color: #65c35c;
     cursor: pointer;
+    border-radius: 5px;
      
  }
   
