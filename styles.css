@@ -203,7 +203,7 @@ header {
 #prices_title{
     text-align: center;
     font-family: 'Fira Sans Condensed', sans-serif; 
-    color: black;
+    color:white;
     margin-top: 25px;
 }
 
@@ -374,20 +374,25 @@ header {
     margin-left: 250px;
     margin-top: 30px; 
     font-family: 'Fira Sans Condensed', sans-serif; 
-    color:aliceblue;
+    color: black;
 }
 
 #team_left{
     background-color: #44312d;
     font-family: 'Fira Sans Condensed', sans-serif;
+    background-image:  url("srcs/happygirls.png");
+    background-repeat: no-repeat;
     color: #f2ebd9;
     display: block;
+    background-position: center;
     font-size: 25px;
     width: auto;
-    height: auto;
+    height: 80vh;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+
 #team_right{
     background-color: #65c35c;
     padding: 0px;
