@@ -432,7 +432,7 @@ header {
 #contact_title{
     text-align: center;
     font-family: 'Fira Sans Condensed', sans-serif; 
-    color: black;
+    color: white;
     margin-top: 25px;
 }
 
@@ -454,12 +454,17 @@ header {
     background-color:#f2ebd9;
     display: block;
     border: 10px black;
+    background-image: url("srcs/contact.jpg");
     font-size: 25px;
-    height:auto; 
+    background-repeat: no-repeat;
+    background-size: 110vh;
+    width: auto;
+    height: 80vh; 
     margin-top: 10px;
     margin-bottom: 10px;
   
 } 
+
 
 #contact_text{
     color: white;
