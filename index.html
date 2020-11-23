@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Montserrat+Subrayada:wght@700&display=swap" rel="stylesheet">
         <title>Freshelf - Keep Your Food Fresh</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, height=device-height, inital-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
     <header id="header">
@@ -80,27 +80,41 @@
             <div id = "prices_left">
                 <p>
                 <section id="prices_text">
-            <h3 id="prices_free_title" style= "color: black;">
-                Free:
-            </h3>
+
+            <form class="form_Paid" id = "form_Paid">
+                <div class="rnd"><h3 id = "prices_paid_title">Pro:</h3></div>
+                <p>
+                <ul>
+                    <li>Recipes suggestion based on inventory and dietary needs</li>
+                    <li>Daily grocery brochures</li>
+                    <li>Sync across different devices</li>
+                    <li>Smart fridges compatibility</li>
+                    <li>Advanced customization features</li>
+                </ul>
+                <div class="paid_div">
+                    <a class="Paid_Btn" id = Paid_Btn>$ 5.99</a>
+                </div>
+                <span class= "prices_text">Per month</span>   
+            </form>
+            <br>
+            <form class="form_Free" id = "form_Free"><h3 id="prices_free_title" style= "color: black;">
+                Basic:</h3> 
                 <ul>
                     <li>Categorizing and sort your items by expiry dates</li>
+                    <li>Sort by food category:</li>
+                    <li>Ex. dairy, fruits, vegetables and others</li>
                     <li>expiry dates notifications</li>
                     <li>basic customization features</li>
                 </ul>
-            <h3 id = "prices_paid_title">
-                Paid:
-            </h3>
-                <p>
-                <ul>
-                    <li>Recipes suggestion based on your inventory and your dietary needs</li>
-                    <li>Syncing across various devices</li>
-                    <li>Daily grocery brochures</li>
-                    <li>Advanced customization features</li>
-                </ul>
-                </section>
+                <div class="paid_div"><a class="Paid_Btn" id = Free_Btn>Free</a></div>
+            </form>
+
                 </p>
+                <div class = "Mk"><button onclick ="price()" class = btn_read_more id="read_Price">Checkout Free</button></div>
+                </section> 
             </div>
+
+
 
         <br>
 
@@ -125,13 +139,15 @@
 
         <section id="team_right">
             <section id="team_text">
-              <p>Here at Freshelf, our number one priority is to help you stop losing money by avoiding wasting food. We are a small enthusiastic team working day after day on improving our app so that you can use it to the fullest!</p>
-            <br><img src="srcs/instagram.png" alt="Instagram Logo" height="20px" style="float: inline-start"> Instagram: @freshelf.official
 
-            <br><img src="srcs/twitter.png" alt="Twitter Logo" height="20px" style="float: inline-start"> Twitter: @freshshelf.official
+                <p>Here at Freshelf, our number one priority is to help you stop losing money by avoiding wasting food. We are a small enthusiastic team working day after day on improving our app so that you can use it to the fullest!</p>
+                <br><img src="srcs/instagram.png" alt="Instagram Logo" height="20px" style="float: inline-start">
+                <a class = "team_link" href="https://www.instagram.com/explore/tags/foodwaste/?hl=en">Instagram: @freshelf.official</a>
+                <br><img src="srcs/twitter.png" alt="Twitter Logo" height="20px" style="float: inline-start"> 
+                <a class = "team_link" href="https://twitter.com/lfhw_uk?lang=en">Twitter: @freshshelf.official</a>
+                <div style="margin-top:200px"></div>
 
-            <div style="margin-top:200px"></div>
-        </section>
+          </section>
         </section>
 
         <section id="team_left">
