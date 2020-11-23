@@ -61,12 +61,12 @@ function price() {
     if(form_p.style.display ==='block') {
         form_p.style.display = "none";
         form_F.style.display ="block";
-        P_btn.innerHTML = "Checkout Paid";
+        P_btn.innerHTML = "Premium Plan";
         }
     else 
         {
         form_p.style.display = "block";
-        P_btn.innerHTML = "Checkout Free";
+        P_btn.innerHTML = "Basic Plan";
         form_F.style.display ="none";
         }
                 
