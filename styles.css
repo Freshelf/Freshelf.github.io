@@ -4,7 +4,7 @@
     overflow-x: hidden;
     outline:none; 
     }
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Montserrat+Subrayada:wght@700&display=swap");
 
 @font-face {
     font-family: "Stepped";
@@ -17,6 +17,8 @@
 
 body{
     background-color: white;
+    font-family:'Fira Sans Condensed', sans-serif;
+
 }
 
 /*-----------------------------------header styles---------------------------------------------------------------------------------*/
@@ -29,10 +31,10 @@ header {
 #header_text {
     padding: 0 0 3vh 0;
     left: 50vw;
-    top: 50vh;
+    top: 45vh;
     transform: translate(-50%, -50%);
     color: white;
-    width: 45vw;
+    width: 80vw;
     height: 34vh;
     position: relative;
     height: auto;
@@ -40,18 +42,25 @@ header {
 
 #header_text h1 {
     font-family:'Fira Sans Condensed', sans-serif;
-    font-size: 10.5vw;
+    font-size: 11vw;
+    text-align: center;
+    margin: auto;
+    filter: brightness(1000%)
+}
+#header_text h3 {
+    font-family:'Fira Sans Condensed', sans-serif;
+    font-size: 3vw;
     text-align: center;
     margin: auto;
     filter: brightness(1000%)
 }
 
 #header_text p {
-    font-family: 'Grandstander', cursive;
-    font-size: 1.3vw;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 1.5vw;
     text-align: center;
     margin-top: 5px;
-    filter: brightness(1000%)
+    filter: brightness(1000%);
 }
 
 #header_background {
@@ -64,14 +73,16 @@ header {
     background-size: cover;
     position: absolute;
 }
+
 #header_buttons_background {
     height: 150%;
     width: 150
   }
+
 #header_buttons {
     position: relative;
     left: 49.375vw;
-    top: 40vh;
+    top: 30vh;
     width: 45vw;
     height: auto;
     transform: translate(-50%, -50%);
@@ -89,10 +100,13 @@ header {
     border-radius: 12px;
     margin-left: 1.25vw;
     filter: brightness(100%);
+    background-image: url("srcs/button.jpg");
+    background-size: cover;
     color: white;
     text-align: center;
-    font-family: 'Grandstander', cursive;
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
+
 #header_buttons a:hover {
     filter: brightness(95%);
     color: #44312d;
@@ -124,17 +138,21 @@ header {
 }
 
 #features_left{
-    background-color: #44312d;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: #f2ebd9;
+    background-image:  url("srcs/couple_cooking.png");
+    background-repeat: no-repeat;
+    font-family: 'Fira Sans Condensed', sans-serif;
     color: #f2ebd9;
     display: block;
     font-size: 25px;
+    background-position: center;
     width: auto;
-    
+    height: 90vh;
 }
+
 #features_right{
     background-color: #65c35c;
-    padding: 0px;
+    padding: 20px 50px;
     display: block;
     box-shadow: 10px 10px 30px 10px black;
     width: 45%;
@@ -146,7 +164,7 @@ header {
     margin: 25px;
     margin-top: 50px;
     font-family:'Fira Sans Condensed', sans-serif;
-    font-size: 18.99px;
+    font-size: 25px;
     height: auto;
 }
 #inter{
@@ -201,7 +219,7 @@ header {
     float: left;
     width: 45%;
     box-shadow: 10px 10px 30px black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fira Sans Condensed', sans-serif
     color: #f2ebd9;
     border: 10px black;
     font-size: 25px;
@@ -224,7 +242,7 @@ header {
     margin: 25px;
     margin-top: 50px;
     font-family:'Fira Sans Condensed', sans-serif;
-    font-size: 18.99px;
+    font-size: 25px;
     height: auto;
 }
 
@@ -233,7 +251,7 @@ header {
     margin: 25px;
     margin-top: 50px;
     font-family:'Fira Sans Condensed', sans-serif;
-    font-size: 18.99px;
+    font-size: 25px;
     height: auto;
 
 }
@@ -356,7 +374,7 @@ header {
 
 #team_left{
     background-color: #44312d;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fira Sans Condensed', sans-serif;
     color: #f2ebd9;
     display: block;
     font-size: 25px;
@@ -370,7 +388,7 @@ header {
     padding: 0px;
     display: block;
     float: right;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fira Sans Condensed', sans-serif;
     color: #f2ebd9;
     box-shadow: 10px 10px 30px 10px black;
     width: 45%;
@@ -384,7 +402,7 @@ header {
     margin: 25px;
     margin-top: 50px;
     font-family:'Fira Sans Condensed', sans-serif;
-    font-size: 18.99px;
+    font-size: 25px;
     height: auto;
 }
 
@@ -415,7 +433,7 @@ header {
     float: left;
     width: 45%;
     box-shadow: 10px 10px 30px black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fira Sans Condensed', sans-serif;
     color: #f2ebd9;
     border: 10px black;
     font-size: 25px;
@@ -438,7 +456,7 @@ header {
     margin: 25px;
     margin-top: 50px;
     font-family:'Fira Sans Condensed', sans-serif;
-    font-size: 18.99px;
+    font-size: 25px;
     height: auto;
 }
 
@@ -495,8 +513,10 @@ header {
     top: -4vw;
 }
 /*-------------------------------Contact Form---------------------------------------------------------------------------------*/
+
 #form_content{
     display: none;
+    color: #44312d;
 }
 .form_container {
     width: 340px;
@@ -507,7 +527,7 @@ header {
     margin: auto;
     position: relative;
     box-sizing: border-box;
-    border:2px solid #65c35c;
+    border:2px solid #44312d;
     box-shadow: 0 0 40px -10px #000;
     z-index: 0;
   }
@@ -529,15 +549,24 @@ header {
     float: left;
     padding: 8px 12px;
     margin: 8px 0 0;
+    border: 2px solid white;
+    background: 0;
+    color: white;
+    cursor: pointer;
+     
+ }
+ .form_button2{
+    float: left;
+    padding: 8px 12px;
+    margin: 8px 0 0;
     border: 2px solid #65c35c;
     background: 0;
     color: #65c35c;
     cursor: pointer;
     border-radius: 5px;
-     
- }
+}
   
- .form_button:hover{
+ .form_button:hover, .form_button2:hover{
     float: left;
     padding: 8px 12px;
     margin: 8px 0 0;
