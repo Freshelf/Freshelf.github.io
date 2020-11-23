@@ -219,7 +219,7 @@ header {
     float: left;
     width: 45%;
     box-shadow: 10px 10px 30px black;
-    font-family: 'Fira Sans Condensed', sans-serif
+    font-family: 'Fira Sans Condensed', sans-serif;
     color: #f2ebd9;
     border: 10px black;
     font-size: 25px;
@@ -242,7 +242,7 @@ header {
     margin: 25px;
     margin-top: 50px;
     font-family:'Fira Sans Condensed', sans-serif;
-    font-size: 25px;
+    font-size: 19px;
     height: auto;
 }
 
