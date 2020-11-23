@@ -83,7 +83,7 @@ header {
 #header_buttons {
     position: relative;
     left: 49.375vw;
-    top: 25vh;
+    top: 30vh;
     width: 45vw;
     height: auto;
     transform: translate(-50%, -50%);
@@ -140,12 +140,13 @@ header {
 
 #features_left{
     background-color: #f2ebd9;
-    background-image:  url("srcs/filteredipadwoman.png");
+    background-image:  url("srcs/couple_cooking.png");
     background-repeat: no-repeat;
     font-family: 'Fira Sans Condensed', sans-serif;
     color: #f2ebd9;
     display: block;
     font-size: 25px;
+    background-position: center;
     width: auto;
     height: 90vh;
 }
@@ -241,7 +242,7 @@ header {
     margin: 25px;
     margin-top: 50px;
     font-family:'Fira Sans Condensed', sans-serif;
-    font-size: 18.99px;
+    font-size: 25px;
     height: auto;
 }
 
@@ -250,7 +251,7 @@ header {
     margin: 25px;
     margin-top: 50px;
     font-family:'Fira Sans Condensed', sans-serif;
-    font-size: 18.99px;
+    font-size: 25px;
     height: auto;
 
 }
@@ -309,7 +310,7 @@ header {
     margin: 25px;
     margin-top: 50px;
     font-family:'Fira Sans Condensed', sans-serif;
-    font-size: 18.99px;
+    font-size: 25px;
     height: auto;
 }
 
@@ -355,7 +356,7 @@ header {
     margin: 25px;
     margin-top: 50px;
     font-family:'Fira Sans Condensed', sans-serif;
-    font-size: 18.99px;
+    font-size: 25px;
     height: auto;
 }
 
