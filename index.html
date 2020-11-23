@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 
 <!--
-    Our website has only one page so the following pages : 
+    Our website has only one page so the following pages :
     Home Page, Product Features Page, Pricing Page, Team Page
     are on a unique scroll based page.
 -->
 
 <html>
     <head>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Montserrat+Subrayada:wght@700&display=swap" rel="stylesheet">
         <title>Freshelf - Keep Your Food Fresh</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, height=device-height, inital-scale=1, shrink-to-fit=no">
@@ -41,25 +41,25 @@
     <!--PRODUCT FEATURES---------------------------------------------------------------------------------->
     <body class = "Main_content" style = "margin: 0;">
         <div id="features_scroll" class="to_scroll"></div> <!-- don't remove this as top of Main_content -->
-       
+
         <section id="features_right" style="height:auto; margin-left: 0px">
             <section id = "features_text">
             </div>
-            <p>Freshelf will categorize and sort your items by expiry dates, notify you when the expirations dates are closing by. Freshelf also offers diverse customization options, recipes suggestions, grocery brochures, syncing across various devices, and that's only for the main features!
-            </p>
+            <p>Freshelf will categorize and sort your items by expiry dates, notify you when the expirations dates are closing by. Freshelf also offers diverse customization options, recipes suggestions, grocery brochures, syncing across various devices, and that's only for the main features!</p>
             <br>
-            
+
             <h2 style = "color:black;font-size: 28px">
-                How the product works?<span id = "dots">...</span>
+                How does it work?<span id = "dots">...</span>
             </h2>
             <span id = "more" style = "margin-top: 15px">
                 <br>
-                <p>Here at Freshelf, our number one priority is to help you stop losing money from wasted food. Our easy-to-use app is filled with efficient tracking algorithms to help you organize and live a fresher life.<br> At the supermarket, just scan your phone at the register and all the food that you purchased will be automatically added to our Freshelf app! Listed are the expiry dates, date of purchase, quantity of item, and many other features tailored to your needs. Let us help you reduce your food waste and plan better. </p>
+                  <p>First of all, you scan the QR code with the app at the cashier register. Then as the items are scanned they will be displayed on the app.
+                     Finally everything will be organized into different categories so you'll be able to keep track of them easily!</p>
                 <br>
             </span>
             <button onclick= "Read_More()" class = btn_read_more id="read_M">Read more</button>
         </section>
-       
+
         </section>
 
         <section id = "features_left">
@@ -82,26 +82,26 @@
                 <section id="prices_text">
             <h3 id="prices_free_title" style= "color: black;">
                 Free:
-            </h3> 
+            </h3>
                 <ul>
-                    <li>Auto-sort by expiry date</li>
-                    <li>Sort by food category (ex. dairy, fruits, vegetables...)</li>
-                    <li>Lists the quanity of every food item</li>
+                    <li>Categorizing and sort your items by expiry dates</li>
+                    <li>expiry dates notifications</li>
+                    <li>basic customization features</li>
                 </ul>
             <h3 id = "prices_paid_title">
                 Paid:
             </h3>
                 <p>
                 <ul>
-                    <li>Provides recipe suggestions based on inventory</li>
-                    <li>Recipe suggestions account for dietary restrictions</li>
-                    <li>Shows grocery brochures for stores near you</li>
-                    <li>Sync across different devices</li>
+                    <li>Recipes suggestion based on your inventory and your dietary needs</li>
+                    <li>Syncing across various devices</li>
+                    <li>Daily grocery brochures</li>
+                    <li>Advanced customization features</li>
                 </ul>
-                </section> 
+                </section>
                 </p>
             </div>
-    
+
         <br>
 
         <section id="prices_right">
@@ -109,7 +109,7 @@
                 Prices
             </h2>
 
-            <img id = "image" src="srcs/tabletWoman.jpg" alt="Kitchen Pantry" width="500" height="400" style="margin-left: 100px; margin-bottom: 74px; margin-top: 33px;box-shadow: 10px 10px 30px black;">
+            <img id = "image" src="srcs/tabletWoman.jpg" alt="Kitchen Pantry" width="500" height="400" style="margin-left: 180px; margin-bottom: 74px; margin-top: 33px;box-shadow: 10px 10px 30px black;">
         </section>
             </p>
         </section>
@@ -121,12 +121,13 @@
 
         <section id="team_content" style="height: auto;margin-left: 0px;">
         <div id="team_scroll" class="to_scroll"></div> <!-- don't remove this as top of team_content -->
-       
-        
+
+
         <section id="team_right">
             <section id="team_text">
+              <p>Here at Freshelf, our number one priority is to help you stop losing money by avoiding wasting food. We are a small enthusiastic team working day after day on improving our app so that you can use it to the fullest!</p>
             <br><img src="srcs/instagram.png" alt="Instagram Logo" height="20px" style="float: inline-start"> Instagram: @freshelf.official
-            
+
             <br><img src="srcs/twitter.png" alt="Twitter Logo" height="20px" style="float: inline-start"> Twitter: @freshshelf.official
 
             <div style="margin-top:200px"></div>
@@ -135,10 +136,10 @@
 
         <section id="team_left">
             <h1 id="team_title">The Fresh Team</h1>
-    
+
             <img id = "image" src="srcs/bagGrocery.jpg" alt="Kitchen Pantry" width="500" height="400" style="margin-left: 100px; margin-bottom: 74px; margin-top: 33px;box-shadow: 10px 10px 30px black;">
         </section>
-    
+
         </section>
 
         <div style="margin-top:200px"></div>
@@ -161,13 +162,12 @@
                 <h4>
                     <label for="user_name">Name:</label>
                     <input type="text" placeholder="Write your name here...">
-  
+
                      <label for="user_email">Email:</label>
                     <input type="text" placeholder="Let us know how to get back...">
-  
+
                     <label for="user_message">Message:</label>
-                    <input type="text" placeholder="We're all ears...">
-                   
+                    <input type="text" placeholder="We're all ears...">                   
                 <a onclick ="close_form()" class = "form_button2" type="submit" id="form_button">Send Message</a>
                 </h4>
                 </form>
@@ -188,12 +188,13 @@
     <!--FOOTER---------------------------------------------------------------------------------->
 
         <footer>
-           <p>© 2020 Freshelf
-           <br>Terms of services
-           <br>Follow us on instagram, twitter and facebook  
+           <p>© 2020 Freshelf | All right reserved</a>
+           <br><a href="./tos.html">Terms of services</a>
+           <br><a href="./privacypolicy.html">Privacy Policy</a>
+           <br>Follow us on instagram, twitter and facebook
            <br>About us
            <br>Partners
-           <br>Careers 
+           <br>Careers
            </p>
         </footer>
 
