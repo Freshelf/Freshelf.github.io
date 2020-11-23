@@ -229,11 +229,16 @@ header {
 
 #prices_right{
     background-color:#f2ebd9;
+    background-image:  url("srcs/ipadwoman.jpg");
+    background-size: 100vh;
     display: block;
+    background-repeat: no-repeat;
     border: 10px black;
     font-size: 25px;
+    background-position: center;
     box-shadow: 10px 10px 30px black;
-    height:auto; 
+    width: auto;
+    height: 80vh; 
   
 } 
 
