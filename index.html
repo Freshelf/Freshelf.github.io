@@ -78,27 +78,39 @@
             <div id = "prices_left">
                 <p>
                 <section id="prices_text">
-            <h3 id="prices_free_title" style= "color: black;">
-                Free:
-            </h3> 
-                <ul>
-                    <li>Auto-sort by expiry date</li>
-                    <li>Sort by food category (ex. dairy, fruits, vegetables...)</li>
-                    <li>Lists the quanity of every food item</li>
-                </ul>
-            <h3 id = "prices_paid_title">
-                Paid:
-            </h3>
+            <form class="form_Paid" id = "form_Paid">
+                <div class="rnd"><h3 id = "prices_paid_title">Pro:</h3></div>
                 <p>
                 <ul>
                     <li>Provides recipe suggestions based on inventory</li>
                     <li>Recipe suggestions account for dietary restrictions</li>
                     <li>Shows grocery brochures for stores near you</li>
                     <li>Sync across different devices</li>
+                    <li>Smart fridges compatibility</li>
                 </ul>
-                </section> 
+                <div class="paid_div">
+                    <a class="Paid_Btn" id = Paid_Btn>$ 5.99</a>
+                </div>
+                <span class= "prices_text">Per month</span>   
+            </form>
+            <br>
+            <form class="form_Free" id = "form_Free"><h3 id="prices_free_title" style= "color: black;">
+                Basic:</h3> 
+                <ul>
+                    <li>Auto-sort by expiry date</li>
+                    <li>Sort by food category:</li>
+                    <li>Ex. dairy, fruits, vegetables and others</li>
+                    <li>Lists the quanity of every food item</li>
+                </ul>
+                <div class="paid_div"><a class="Paid_Btn" id = Free_Btn>Free</a></div>
+            </form>
                 </p>
+                <div class = "Mk"><button onclick ="price()" class = btn_read_more id="read_Price">Checkout Free</button></div>
+                </section> 
             </div>
+           
+            
+
     
         <br>
 

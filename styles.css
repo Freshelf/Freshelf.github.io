@@ -190,7 +190,6 @@ header {
 }
 
 #prices_paid_title{
-    margin-left: 25px;
     margin-top: 5%; 
     font-family: 'Fira Sans Condensed', sans-serif; 
     color: black;
@@ -207,6 +206,7 @@ header {
     border: 10px black;
     font-size: 25px;
     height: 630px;
+    overflow: hidden;
 }
 
 #prices_right{
@@ -244,7 +244,99 @@ header {
     margin-bottom: 70px;
 
 }
-
+.form_Paid{
+    display:block;
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+    border:2px solid #65c35c;
+    box-shadow: 0 0 40px -10px #000;
+    z-index: 0;
+    background-color: whitesmoke;
+}
+.form_Paid ul {
+    color: black;
+    margin: auto;
+    padding: 10px 10px;
+}
+.form_Paid h3{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#form_Free{
+    display:none;
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+    border:2px solid #65c35c;
+    box-shadow: 0 0 40px -10px #000;
+    z-index: 0;
+    background-color: whitesmoke;  
+}
+.form_Free ul {
+    color: black;
+    margin: auto;
+    padding: 10px 10px;
+}
+.form_Free ul li{
+    border-bottom: 1px solid #ddd;
+    padding: 8px 16px;
+}
+.form_Paid ul li{
+    border-bottom: 1px solid #ddd;
+    padding: 8px 16px;
+}
+.form_Free h3{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.rnd{
+    background-color: #f2ebd9;
+}
+.Paid_Btn{
+    position: center;
+    padding: 4px 6px;
+    margin-top: 10px;
+    border: 2px solid #65c35c;
+    background: 0;
+    color: #65c35c;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Paid_Btn a{
+    z-index: 2;
+}
+.Paid_Btn:hover{
+    padding: 4px 6px;
+    margin: 8px 0 0;
+    border: 2px solid #44312d;
+    background: 0;
+    color: #44312d;
+    cursor: pointer;
+}
+.paid_div{
+    margin-left: 110px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+.prices_text{
+    color: gray;
+    padding-left: 120px;
+    font-size: 10px;
+}
+.Mk{
+    margin-left: 335px;
+}
 /*-------------------------------Fresh Team styles---------------------------------------------------------------------------------*/
 
 #team_title{
@@ -455,6 +547,7 @@ header {
     cursor: pointer;
      
  }
+
 /*---------------------------Footer Styles-----------------------------*/
 
  footer {
@@ -462,6 +555,6 @@ header {
     color: #fff;
     text-align: center;
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 20px; 
 }
  

@@ -53,3 +53,21 @@ function form1() {
         cont.style.display = "none";
         c_mbtn.innerHTML = "Contact Us";
         }
+function price() {
+    var form_p = document.getElementById("form_Paid");
+    var form_F = document.getElementById("form_Free");
+    var P_btn = document.getElementById("read_Price");
+            
+    if(form_p.style.display ==='block') {
+        form_p.style.display = "none";
+        form_F.style.display ="block";
+        P_btn.innerHTML = "Checkout Paid";
+        }
+    else 
+        {
+        form_p.style.display = "block";
+        P_btn.innerHTML = "Checkout Free";
+        form_F.style.display ="none";
+        }
+                
+    }
